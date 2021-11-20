@@ -56,7 +56,7 @@
         "- Developed R Shiny web application for the clustifyr R library in order to facilitate analysis of scRNA-seq data.",
         "- Conducted a meta-analysis of scRNA-seq data sets from NCBI Gene Expression Omnibus and Tabula Muris (mouse scRNA-seq atlas) utilizing principal component analysis, graph based clustering, and uniform manifold approximation and projection."
       ],
-      "imgFileName": "anschutz.png",
+      "imgFileName": "rbi.png",
       "imgSize": "120px"
     },
 

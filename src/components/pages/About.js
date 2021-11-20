@@ -20,7 +20,8 @@ const About = () => {
     margin: "4px 2px",
     cursor: "pointer",
     borderRadius: "8px",
-    marginBottom: "20px",
+    marginTop: "40px",
+    marginBottom: "40px",
   };
 
   return (

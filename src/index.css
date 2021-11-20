@@ -1,13 +1,74 @@
 body {
+  font-family: 'Poppins', sans-serif;
+  background: rgb(21, 21, 59);
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  box-sizing: border-box
+}
+
+.center_circle_image {
+
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 250px;
+  width: 250px;
+  
+}
+
+.anchor {
+  display: block;
+  position: relative;
+  top: -70px;
+  visibility: hidden;
+}
+
+/*JUMBOTRON*/
+.jumbotron {
+  height: 100vh; 
+  background-color: rgb(17, 24, 39);
+  filter: "brightness(50%)";
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("img/badlands.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 5; /*no bottom margin*/
+
+  display: flex;
+  flex-direction: column;
+}
+
+.jumbotron-text {
+  /*TAGLINE UNDER NAME*/
+  font-weight: 400;
+  font-size: 1.7em;
+  color: white;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.jumbotron-text h1 {
+  /*YOUR NAME*/
+  font-weight: 900;
+  font-size: 3em;
+  margin-bottom: 0;
+}
+
+.jumbotron-text p {
+  margin: 0;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 2.6rem;
+  color: #ffffff;
+}
+
+h4 {
+  margin: 0;
+  font-weight: 800;
+  color: white;
 }
