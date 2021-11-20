@@ -2,7 +2,7 @@ import React from "react";
 import data from "../../res/info.json";
 import Experience from "../Experience.js";
 
-const Education = () => {
+const Experiences = () => {
   const experience = data.experiences;
   const style = {
     alignItems: "center",
@@ -23,4 +23,4 @@ const Education = () => {
   );
 };
 
-export default Education;
+export default Experiences;

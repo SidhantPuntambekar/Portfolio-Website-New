@@ -1,6 +1,6 @@
 import React from "react";
 
-const Experience = ({ experience }) => {
+const Experience = ({ experience, currentIndex, length }) => {
   var image = require(`../img/${experience.imgFileName}`);
 
   const experienceStyle = {
@@ -29,10 +29,15 @@ const Experience = ({ experience }) => {
   return (
     <div style={experienceStyle}>
       <div style={leftMargin}>
-        <h1>{experience.name}</h1>
+        <h1>{experience.organization}</h1>
+        <h3>{experience.role}</h3>
 
-        <h3>{experience.descriptor1}</h3>
-        <h3>{experience.descriptor2}</h3>
+        {experience.bullets.map((pt, x) => (
+          <>
+            <h4>{pt}</h4>
+            <br></br>
+          </>
+        ))}
       </div>
 
       <div style={rightMargin}>
@@ -44,7 +49,7 @@ const Experience = ({ experience }) => {
             marginRight: "auto",
             maxHeight: experience.imgSize,
           }}
-          alt={experience.name}
+          alt={experience.organization}
         />
       </div>
     </div>

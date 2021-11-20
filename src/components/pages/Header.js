@@ -7,7 +7,8 @@ const Header = () => {
     <div className="jumbotron">
       <div className="jumbotron-text">
         <img className="center_circle_image" src={image.default} />
-        <h1>Sidhant Puntambekar</h1>
+        <h1>Hi!</h1>
+        <h2>I'm Sidhant Puntambekar</h2>
         <p>Computer Scientist | Computational Biologist</p>
       </div>
 

@@ -56,8 +56,8 @@
         "- Developed R Shiny web application for the clustifyr R library in order to facilitate analysis of scRNA-seq data.",
         "- Conducted a meta-analysis of scRNA-seq data sets from NCBI Gene Expression Omnibus and Tabula Muris (mouse scRNA-seq atlas) utilizing principal component analysis, graph based clustering, and uniform manifold approximation and projection."
       ],
-      "imgFileName": "rbi.jpg",
-      "imgSize": "110px"
+      "imgFileName": "anschutz.png",
+      "imgSize": "120px"
     },
 
     {
@@ -66,7 +66,7 @@
       "bullets": [
         "- Assisted students in learning course material for CSCI 1300: Starting Computing by holding weekly office hours, conducting recitation periods, and participating in crafting lesson plans."
       ],
-      "imgFileName": "cucsci.png",
+      "imgFileName": "cu.png",
       "imgSize": "110px"
     },
 
@@ -77,7 +77,7 @@
         "- Researched landfalling tropical cyclones along the US eastern coastline to improve computational forecasting models using statistical analysis and data visualization from Extended Best Track Hurricane data set.",
         "- Presented research at 99th American Meteorological Society conference in Phoenix, Arizona."
       ],
-      "imgFileName": "ncar.png",
+      "imgFileName": "ncar_alt.png",
       "imgSize": "110px"
     }
   ],
@@ -86,9 +86,9 @@
     {
       "title": "ClustifyR Web Application",
       "dates": "2020 - 2021",
-      "imgFileName": "clustifyr.png",
+      "imgFileName": "clustifyR_alt.png",
       "accentColor": "black",
-      "verticalOffset": "30px"
+      "verticalOffset": "0px"
     },
 
     {
@@ -102,9 +102,9 @@
     {
       "title": "Cyberhood",
       "dates": "2020",
-      "imgFileName": "cyberhood.png",
+      "imgFileName": "cyberhood_alt.jpg",
       "accentColor": "black",
-      "verticalOffset": "30px"
+      "verticalOffset": "0px"
     },
 
     {

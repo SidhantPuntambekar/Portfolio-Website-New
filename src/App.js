@@ -5,7 +5,7 @@ import Header from "./components/pages/Header.js";
 import About from "./components/pages/About.js";
 import Education from "./components/pages/Education.js";
 import Experiences from "./components/pages/Experience.js";
-//import Projects from "./components/pages/Projects.js";
+import Projects from "./components/pages/Projects.js";
 //import Footer from "./components/pages/Footer.js";
 //import Popup from "./components/Popup.js";
 
@@ -25,17 +25,7 @@ function App(props) {
         <About />
         <Education />
         <Experiences />
-        {/* <Projects
-          trigger={buttonPopup}
-          setTrigger={setButtonPopup}
-          index={popupIndex}
-          setIndex={setPopupIndex}
-        />
-        <Popup
-          index={popupIndex}
-          trigger={buttonPopup}
-          setTrigger={setButtonPopup}
-        ></Popup> */}
+        <Projects trigger = {buttonPopup} setTrigger = {setButtonPopup} index = {popupIndex} setIndex = {setPopupIndex}/>
         {/* <Footer /> */}
       </div>
     </div>
