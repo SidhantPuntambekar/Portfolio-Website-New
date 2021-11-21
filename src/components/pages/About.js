@@ -22,7 +22,7 @@ const About = () => {
     borderRadius: "8px",
     marginTop: "40px",
     marginBottom: "40px",
-    fontWeight: 500
+    fontWeight: 800
   };
 
   return (
