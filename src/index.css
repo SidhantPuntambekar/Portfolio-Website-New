@@ -1,6 +1,6 @@
 body {
   font-family: 'Poppins', sans-serif;
-  background: rgb(21, 21, 59);
+  background: #00203FFF;
   margin: 0;
 }
 
@@ -63,13 +63,13 @@ body {
 
 h1 {
   font-weight: 600;
-  color: orange;
+  color: #ADEFD1FF;
 }
 
 h2 {
   font-weight: 600;
   font-size: 2.6rem;
-  color: #ffffff;
+  color: orange;
 }
 
 h3 {
@@ -79,6 +79,6 @@ h3 {
 
 h4 {
   margin: 0;
-  font-weight: 800;
+  font-weight: 500;
   color: white;
 }

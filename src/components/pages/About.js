@@ -10,9 +10,9 @@ const About = () => {
   };
 
   const buttonStyle = {
-    backgroundColor: "blue",
+    backgroundColor: "#EEA47FFF",
     border: "none",
-    color: "white",
+    color: "#00203FFF",
     padding: "10px",
     textAlign: "center",
     display: "inline-block",
@@ -22,6 +22,7 @@ const About = () => {
     borderRadius: "8px",
     marginTop: "40px",
     marginBottom: "40px",
+    fontWeight: 500
   };
 
   return (
@@ -30,13 +31,13 @@ const About = () => {
       <div>
         <h4 style={{ margin: "20px" }}>
           Welcome to my portfolio website! My name is Sidhant Puntambekar and I
-          am currently a sophomore undergraduate at the University of Colorado,
+          am currently a junior undergraduate at the University of Colorado,
           Boulder.  
         </h4>
         <h4 style={{ margin: "20px" }}>
             I am currently majoring in Computer Science and am minoring
-          in Molecular, Cellular, and Developmental Biology and Computational
-          Biology.
+          in Computational
+          Biology and Molecular, Cellular, and Developmental Biology. 
         </h4>
         <h4 style={{ margin: "20px" }}>
             While my main passions are in the areas of Computer Science
@@ -52,7 +53,7 @@ const About = () => {
             label="Resume"
             style={buttonStyle}
           >
-            Click this button to view my Resume
+            Click here to view my Resume
           </button>
         </a>
       </div>
