@@ -38,11 +38,13 @@ const Project = (props) => {
             props.setTrigger(true)
             props.setIndex(props.project)
         }}>
-            <div style = {overlayStyle}>
+            <a href={props.project.link} target="_blank"
+              rel="noreferrer"><div style = {overlayStyle}>
                 <h3>{props.project.title}</h3>
                 <h4>{props.project.dates}</h4>
             </div>
-            <img src = {image.default} style = {{marginLeft : 'auto', marginRight: 'auto', display: 'block', maxWidth: '100%', minHeight: '100%', position: 'absolute', opacity: '44%', zIndex: '2'}} />
+            <img src = {image.default} style = {{marginLeft : 'auto', marginRight: 'auto', display: 'block', maxWidth: '100%', minHeight: '100%', position: 'absolute', opacity: '44%', zIndex: '2'}} /></a>
+            
         </div>
     )
 }
