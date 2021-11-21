@@ -1,8 +1,17 @@
 import React from "react";
+import {
+    FaRegEnvelope,
+    FaGithub,
+    FaLinkedin,
+    FaInstagram,
+    FaTwitter,
+    FaReddit,
+  } from "react-icons/fa"
 
 const Header = () => {
   const image = require("../../img/me.jpg");
 
+  const iconStyle = { color: "white", fontSize: "1.5em", margin: 10 }
   return (
     <div className="jumbotron">
       <div className="jumbotron-text">
@@ -10,66 +19,49 @@ const Header = () => {
         <h1>Hello!</h1>
         <h2>I'm Sidhant Puntambekar</h2>
         <p>Computer Scientist | Computational Biologist</p>
-      </div>
-
-      <div className="jumbotron-social">
-        <ul className="ul-social">
-          <li className="li-social-links">
-            <a className="social" href="mailto:sidhantnp@yahoo.com">
-              <i class="fa fa-RegEnvelope" aria-hidden="true"></i>
-            </a>
-          </li>
-          <li className="li-social-links">
-            <a
+        <a className="social" href="mailto:sidhantnp@yahoo.com">
+                <FaRegEnvelope style={iconStyle} />   
+        </a>
+        <a
               className="social"
               href="https://github.com/SidhantPuntambekar"
               target="_blank"
               rel="noreferrer"
             >
-              <i class="fa fa-github" aria-hidden="true"></i>
-            </a>
-          </li>
-          <li className="li-social-links">
-            <a
+                <FaGithub style={iconStyle}/>
+        </a>
+        <a
               className="social"
               href="https://www.linkedin.com/in/sidhant-puntambekar/"
               target="_blank"
               rel="noreferrer"
             >
-              <i class="fa fa-linkedin" aria-hidden="true"></i>
+              <FaLinkedin style={iconStyle}/>
             </a>
-          </li>
-          <li className="li-social-links">
-            <a
-              className="social"
-              href="https://www.instagram.com/sidhantnp"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i class="fa fa-instagram" aria-hidden="true"></i>
-            </a>
-          </li>
-          <li className="li-social-links">
-            <a
-              className="social"
-              href="https://twitter.com/sidhantnp"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i class="fa fa-twitter" aria-hidden="true"></i>
-            </a>
-          </li>
-          <li className="li-social-links">
-            <a
-              className="social"
-              href="https://www.reddit.com/user/XLongshotz68"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i class="fa fa-reddit" aria-hidden="true"></i>
-            </a>
-          </li>
-        </ul>
+        <a
+            className="social"
+            href="https://www.instagram.com/sidhantnp"
+            target="_blank"
+            rel="noreferrer"
+        >
+            <FaInstagram style={iconStyle}/>
+        </a>
+        <a
+            className="social"
+            href="https://twitter.com/sidhantnp"
+            target="_blank"
+            rel="noreferrer"
+        >
+            <FaTwitter style={iconStyle}/>
+        </a>
+        <a
+            className="social"
+            href="https://www.reddit.com/user/XLongshotz68"
+            target="_blank"
+            rel="noreferrer"
+        >
+            <FaReddit  style={iconStyle}/>
+        </a>
       </div>
     </div>
   );

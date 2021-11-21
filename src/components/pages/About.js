@@ -53,7 +53,7 @@ const About = () => {
             label="Resume"
             style={buttonStyle}
           >
-            Click here to view my Resume
+            View Resume
           </button>
         </a>
       </div>
