@@ -20,8 +20,8 @@ const About = () => {
     margin: "4px 2px",
     cursor: "pointer",
     borderRadius: "8px",
-    marginTop: "40px",
-    marginBottom: "40px",
+    marginTop: "20px",
+    marginBottom: "20px",
     fontWeight: 800
   };
 
