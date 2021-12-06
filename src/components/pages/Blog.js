@@ -11,7 +11,7 @@ const Blog = () => {
       const buttonStyle = {
         backgroundColor: "#EEA47FFF",
         border: "none",
-        color: "#00203FFF",
+        color: "black",
         padding: "10px",
         textAlign: "center",
         display: "inline-block",

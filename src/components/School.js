@@ -24,6 +24,7 @@ const School = ({ school }) => {
     float: "right",
     width: "10%",
     paddingTop: "10px",
+    paddingLeft: "30px"
   };
 
   return (

@@ -23,7 +23,8 @@ const Experience = ({ experience, currentIndex, length }) => {
   const rightMargin = {
     float: "right",
     width: "10%",
-    paddingTop: "10px",
+    paddingTop: "20px",
+    paddingLeft: "30px"
   };
 
   return (
