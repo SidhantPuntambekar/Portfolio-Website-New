@@ -1,5 +1,5 @@
 import React from "react";
-import Resume from "../../res/SidhantPuntambekarResume.pdf";
+import Resume from "../../res/ResumePuntambekarSummer2022OnePagerLinkedin.pdf";
 
 const About = () => {
   const style = {
