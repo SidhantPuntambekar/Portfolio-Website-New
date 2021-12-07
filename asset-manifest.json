@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.243d55e4.chunk.css",
-    "main.js": "/static/js/main.44998099.chunk.js",
-    "main.js.map": "/static/js/main.44998099.chunk.js.map",
+    "main.js": "/static/js/main.80dec17b.chunk.js",
+    "main.js.map": "/static/js/main.80dec17b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a75eb513.js",
     "runtime-main.js.map": "/static/js/runtime-main.a75eb513.js.map",
     "static/js/2.1886cc59.chunk.js": "/static/js/2.1886cc59.chunk.js",
@@ -12,7 +12,7 @@
     "index.html": "/index.html",
     "static/css/main.243d55e4.chunk.css.map": "/static/css/main.243d55e4.chunk.css.map",
     "static/js/2.1886cc59.chunk.js.LICENSE.txt": "/static/js/2.1886cc59.chunk.js.LICENSE.txt",
-    "static/media/SidhantPuntambekarResume.ff3db949.pdf": "/static/media/SidhantPuntambekarResume.ff3db949.pdf",
+    "static/media/ResumePuntambekarSummer2022OnePagerLinkedin.c9bffdcf.pdf": "/static/media/ResumePuntambekarSummer2022OnePagerLinkedin.c9bffdcf.pdf",
     "static/media/anschutz.png": "/static/media/anschutz.e28c06ac.png",
     "static/media/badlands.jpg": "/static/media/badlands.f968dea0.jpg",
     "static/media/clustifyR_alt.png": "/static/media/clustifyR_alt.34aa9eaf.png",
@@ -40,6 +40,6 @@
     "static/js/runtime-main.a75eb513.js",
     "static/js/2.1886cc59.chunk.js",
     "static/css/main.243d55e4.chunk.css",
-    "static/js/main.44998099.chunk.js"
+    "static/js/main.80dec17b.chunk.js"
   ]
 }
