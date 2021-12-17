@@ -33,7 +33,7 @@ const School = ({ school }) => {
         <h1>{school.name}</h1>
 
         <h3>{school.descriptor1}</h3>
-        <h3>{school.descriptor2}</h3>
+        <p>{school.descriptor2}</p>
       </div>
 
       <div style={rightMargin}>

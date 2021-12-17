@@ -18,7 +18,7 @@
       "imgSize": "110px",
       "location": "Boulder, CO",
       "descriptor1": "International Baccalaureate Program, Advanced Placement Scholar with Distinction",
-      "descriptor2": "Politics and Public Policy Club (Founder and President), Stock Market Club, Speech and Debate, National Science Honors Society, National Spanish Honors Society, Youth in Government, Code Club"
+      "descriptor2": "Organizations: Politics and Public Policy Club (Founder and President), Stock Market Club, Speech and Debate, National Science Honors Society, National Spanish Honors Society, Youth in Government, Code Club"
     }
   ],
 
@@ -44,7 +44,7 @@
         "- Migrating HackCU website over to Next.js framework to integrate backend, database, and content management system calls.",
         "- Hosted workshops during hackathons on bioinformatics and recruited new contributors to HackCU Development team."
       ],
-      "imgFileName": "hackcu.png",
+      "imgFileName": "black.png",
       "imgSize": "110px"
     },
 
@@ -77,7 +77,7 @@
         "- Researched landfalling tropical cyclones along the US eastern coastline to improve computational forecasting models using statistical analysis and data visualization from Extended Best Track Hurricane data set.",
         "- Presented research at 99th American Meteorological Society conference in Phoenix, Arizona."
       ],
-      "imgFileName": "ncar_alt.png",
+      "imgFileName": "ncar-modified.png",
       "imgSize": "110px"
     }
   ],

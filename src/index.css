@@ -1,6 +1,6 @@
 body {
   font-family: 'Poppins', sans-serif;
-  background: #00203FFF;
+  background: #008080;
   margin: 0;
 }
 
@@ -63,13 +63,13 @@ body {
 
 h1 {
   font-weight: 600;
-  color: #ADEFD1FF;
+  color: #FFC300;
 }
 
 h2 {
   font-weight: 600;
   font-size: 2.6rem;
-  color: orange;
+  color: #DAF7A6;
 }
 
 h3 {
