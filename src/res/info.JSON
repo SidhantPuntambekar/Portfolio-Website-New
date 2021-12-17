@@ -88,7 +88,7 @@
       "dates": "2020 - 2021",
       "imgFileName": "clustifyR_alt.png",
       "accentColor": "black",
-      "verticalOffset": "0px",
+      "verticalOffset": "35px",
       "link": "https://raysinensis.shinyapps.io/clustifyr-web-app/"
     },
 
@@ -97,7 +97,7 @@
       "dates": "2020 - 2021",
       "imgFileName": "hackcuhub.png",
       "accentColor": "black",
-      "verticalOffset": "30px",
+      "verticalOffset": "35px",
       "link": "https://hackcu.org/"
     },
 
@@ -106,7 +106,7 @@
       "dates": "2020",
       "imgFileName": "cyberhood_alt.jpg",
       "accentColor": "black",
-      "verticalOffset": "0px",
+      "verticalOffset": "35px",
       "link": "https://github.com/SidhantPuntambekar/team-cyberhood-1"
     },
 
@@ -115,7 +115,7 @@
       "dates": "2020 - 2021",
       "imgFileName": "someta.png",
       "accentColor": "black",
-      "verticalOffset": "30px",
+      "verticalOffset": "35px",
       "link": "https://rnabioco.github.io/someta/"
     }
   ]

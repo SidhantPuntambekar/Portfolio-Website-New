@@ -36,7 +36,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 5; /*no bottom margin*/
-
+  
   display: flex;
   flex-direction: column;
 }
@@ -81,4 +81,20 @@ h4 {
   margin: 0;
   font-weight: 500;
   color: white;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 200px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+.box {
+  display: flex;
 }
