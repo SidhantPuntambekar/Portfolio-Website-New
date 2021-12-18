@@ -19,32 +19,33 @@ const Projects = ( props ) => {
     marginLeft: "20px"
   }
 
+
   var oneCol = []
   var twoCol = []
-  // var threeCol = []
-  // var fourCol = []
+  var threeCol = []
+  var fourCol = []
 
   for (var i = 0; i < projects.length; i++) 
   {
-    if (i % 2 === 0) 
+    if (i % 4 === 0) 
     {
       oneCol.push(projects[i]);
     }
 
-    if (i % 2 === 1) 
+    if (i % 4 === 1) 
     {
       twoCol.push(projects[i]);
     }
 
-    // if (i % 4 === 2)
-    // {
-    //   threeCol.push(projects[i]);
-    // }
+    if (i % 4 === 2)
+    {
+      threeCol.push(projects[i]);
+    }
 
-    // if (i % 4 === 3)
-    // {
-    //   fourCol.push(projects[i]);
-    // }
+    if (i % 4 === 3)
+    {
+      fourCol.push(projects[i]);
+    }
   }
 
   return (
@@ -57,12 +58,12 @@ const Projects = ( props ) => {
                   <Project project = {project} trigger = {props.trigger} setTrigger = {props.setTrigger} index = {props.index} setIndex = {props.setIndex}/>
                 ))} 
             </div> 
-            <div style={projectStyle}>
+            <div style={projectStyle}> 
                 {twoCol.map((project, x) => (
                   <Project project = {project} trigger = {props.trigger} setTrigger = {props.setTrigger} index = {props.index} setIndex = {props.setIndex}/>
                 ))} 
             </div>  
-            {/* <div style={projectStyle}>
+            <div style={projectStyle}>
                 {threeCol.map((project, x) => (
                   <Project project = {project} trigger = {props.trigger} setTrigger = {props.setTrigger} index = {props.index} setIndex = {props.setIndex}/>
                 ))} 
@@ -71,7 +72,7 @@ const Projects = ( props ) => {
                 {fourCol.map((project, x) => (
                   <Project project = {project} trigger = {props.trigger} setTrigger = {props.setTrigger} index = {props.index} setIndex = {props.setIndex}/>
                 ))} 
-            </div>     */}
+            </div>    
         </div>
     </div>
   )
