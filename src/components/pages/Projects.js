@@ -12,7 +12,7 @@ const Projects = ( props ) => {
   };
 
   const projectStyle = {
-    display: "inline-flex",
+    display: "inline-table",
     marginTop: "20px",
     marginBottom: "20px",
     marginRight: "20px",
@@ -49,10 +49,9 @@ const Projects = ( props ) => {
   }
 
   return (
-    <div style = {style}>
-        <h2>Projects</h2>
-
-        <div className="flex">
+    <div style = {style}> 
+      <h2 style = {style}>Projects</h2>  
+        <div style={{ display: "grid-flex", gridGap: 5 }}>
             <div style={projectStyle}>
                 {oneCol.map((project, x) => (
                   <Project project = {project} trigger = {props.trigger} setTrigger = {props.setTrigger} index = {props.index} setIndex = {props.setIndex}/>

@@ -7,10 +7,10 @@ const Project = (props) => {
     var image = require('../img/' + props.project.imgFileName)
 
     const style = {
-        height: "200px",
-        width: "90%",
+        height: '200px',
+        width: '90%',
         overflow: 'hidden',
-        color: "white",
+        color: 'white',
         backgroundColor: props.project.accentColor,
         borderRadius: "15px",
         boxShadow: "0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
