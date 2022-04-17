@@ -24,6 +24,16 @@
 
   "experiences": [
     {
+      "organization": "Thrive Earlier Detect, An Exact Sciences Company",
+      "role": "Computational Biology, Data Science Intern",
+      "bullets": [
+        "- Incoming Computational Biology and Data Science Intern at Thrive Earlier Detect working on CancerSEEK which is a liquid biopsy (blood sample) technology for multi-cancer early detection."
+      ],
+      "imgFileName": "thrive2.jpeg",
+      "imgSize": "110px"
+    },
+
+    {
       "organization": "Harvard Medical School",
       "role": "Biomedical Informatics Research Assistant",
       "bullets": [
