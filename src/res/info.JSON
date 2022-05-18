@@ -24,12 +24,12 @@
 
   "experiences": [
     {
-      "organization": "Thrive Earlier Detect, An Exact Sciences Company",
+      "organization": "Exact Sciences",
       "role": "Computational Biology, Data Science Intern",
       "bullets": [
-        "- Incoming Computational Biology and Data Science Intern at Thrive Earlier Detect working on CancerSEEK which is a liquid biopsy (blood sample) technology for multi-cancer early detection."
+        "• Incoming Computational Biology and Data Science Intern at Thrive Earlier Detect/MCED at Exact Sciences working on cancer diagnostic modeling for CancerSEEK (a liquid biopsy/blood sample technology for multi-cancer early detection)"
       ],
-      "imgFileName": "thrive2.jpeg",
+      "imgFileName": "exact2.png",
       "imgSize": "110px"
     },
 
@@ -37,10 +37,10 @@
       "organization": "Harvard Medical School",
       "role": "Biomedical Informatics Research Assistant",
       "bullets": [
-        "- Biomedical Informatics Research Intern at Harvard Medical School working in the computational genomics lab of Dr. Shamil Sunyaev.",
-        "- Analyzing the Broad Institute's Genome Aggregation Database (gnomAD) dataset to better quantify and understand the mutational constraint on missense and loss of function genomic variants using a fine-scale mutation map.",
-        "- Modelled mutational spectrum using machine learning techniques (logistic regressions) on a training set of over 125,000 synonymous genome and exome sequences.",
-        "- Built a classifier to predict which genes are most likely to succumb to debilitating loss of function mutations."
+        "• Biomedical Informatics Research Intern at Harvard Medical School working in the computational genomics lab of Dr. Shamil Sunyaev.",
+        "• Analyzing the Broad Institute's Genome Aggregation Database (gnomAD) dataset to better quantify and understand the mutational constraint on missense and loss of function genomic variants using a fine-scale mutation map.",
+        "• Modelled mutational spectrum using machine learning techniques (logistic regressions) on a training set of over 125,000 synonymous genome and exome sequences.",
+        "• Built a classifier to predict which genes are most likely to succumb to debilitating loss of function mutations."
       ],
       "imgFileName": "harvardmed.png",
       "imgSize": "110px"
@@ -50,9 +50,9 @@
       "organization": "HackCU",
       "role": "Tech Team Director",
       "bullets": [
-        "- Developed the new HackCU hub website (hackcu.org) utilizing full stack development tools and continuous integration (CI/CD) as part of the technology/software development team.",
-        "- Migrating HackCU website over to Next.js framework to integrate backend, database, and content management system calls.",
-        "- Hosted workshops during hackathons on bioinformatics and recruited new contributors to HackCU Development team."
+        "• Developed the new HackCU hub website (hackcu.org) utilizing full stack development tools and continuous integration (CI/CD) as part of the technology/software development team.",
+        "• Migrating HackCU website over to Next.js framework to integrate backend, database, and content management system calls.",
+        "• Hosted workshops during hackathons on bioinformatics and recruited new contributors to HackCU Development team."
       ],
       "imgFileName": "black.png",
       "imgSize": "110px"
@@ -62,9 +62,9 @@
       "organization": "RNA Bioscience Initiative, University of Colorado Anschutz Medical School",
       "role": "Bioinformatics Research Intern",
       "bullets": [
-        "- Primary author on research paper published in Public Library Of Sciences Biology journal (May, 2021) regarding the problem of single cell RNA-sequencing metadata submission in gene expression databases (NCBI GEO).",
-        "- Developed R Shiny web application for the clustifyr R library in order to facilitate analysis of scRNA-seq data.",
-        "- Conducted a meta-analysis of scRNA-seq data sets from NCBI Gene Expression Omnibus and Tabula Muris (mouse scRNA-seq atlas) utilizing principal component analysis, graph based clustering, and uniform manifold approximation and projection."
+        "• Primary author on research paper published in Public Library Of Sciences Biology journal (May, 2021) regarding the problem of single cell RNA-sequencing metadata submission in gene expression databases (NCBI GEO).",
+        "• Developed R Shiny web application for the clustifyr R library in order to facilitate analysis of scRNA-seq data.",
+        "• Conducted a meta-analysis of scRNA-seq data sets from NCBI Gene Expression Omnibus and Tabula Muris (mouse scRNA-seq atlas) utilizing principal component analysis, graph based clustering, and uniform manifold approximation and projection."
       ],
       "imgFileName": "rbi.png",
       "imgSize": "120px"
@@ -74,7 +74,7 @@
       "organization": "University of Colorado Boulder Department of Computer Science",
       "role": "Learning Assistant - CSCI 1300",
       "bullets": [
-        "- Assisted students in learning course material for CSCI 1300: Starting Computing by holding weekly office hours, conducting recitation periods, and participating in crafting lesson plans."
+        "• Assisted students in learning course material for CSCI 1300: Starting Computing by holding weekly office hours, conducting recitation periods, and participating in crafting lesson plans."
       ],
       "imgFileName": "cu.png",
       "imgSize": "110px"
@@ -84,8 +84,8 @@
       "organization": "The National Center for Atmospheric Research (NCAR)",
       "role": "Research Intern",
       "bullets": [
-        "- Researched landfalling tropical cyclones along the US eastern coastline to improve computational forecasting models using statistical analysis and data visualization from Extended Best Track Hurricane data set.",
-        "- Presented research at 99th American Meteorological Society conference in Phoenix, Arizona."
+        "• Researched landfalling tropical cyclones along the US eastern coastline to improve computational forecasting models using statistical analysis and data visualization from Extended Best Track Hurricane data set.",
+        "• Presented research at 99th American Meteorological Society conference in Phoenix, Arizona."
       ],
       "imgFileName": "ncar-modified.png",
       "imgSize": "110px"

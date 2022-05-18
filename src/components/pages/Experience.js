@@ -7,6 +7,7 @@ const Experiences = () => {
   const style = {
     alignItems: "center",
     textAlign: "center",
+    position: "relative"
   };
 
   return (
@@ -14,9 +15,9 @@ const Experiences = () => {
       <h2>Experience</h2>
       {experience.map((experience, x) => (
         <Experience
-          experience={experience}
-          currentIndex={x}
-          length={experience.length}
+          experience = {experience}
+          currentIndex = {x}
+          length = {experience.length}
         />
       ))}
     </div>

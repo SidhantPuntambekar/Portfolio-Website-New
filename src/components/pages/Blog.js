@@ -6,6 +6,8 @@ const Blog = () => {
         textAlign: "center",
         marginLeft: "auto",
         marginRight: "auto",
+        position: "relative", 
+        marginTop: "-15%" 
       };
     
       const buttonStyle = {

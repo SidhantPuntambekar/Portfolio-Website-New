@@ -40,7 +40,6 @@ body {
   
   display: flex;
   flex-direction: column;
-  position: 'fixed';
 }
 
 .jumbotron-text {
@@ -71,6 +70,10 @@ h1 {
 h2 {
   font-weight: 600;
   font-size: 2.6rem;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
   color: #DAF7A6;
 }
 

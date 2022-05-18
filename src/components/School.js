@@ -15,16 +15,15 @@ const School = ({ school }) => {
 
   const leftMargin = {
     float: "left",
-    width: "90%",
+    width: "75%",
     margin: "auto",
     display: "block",
   };
 
   const rightMargin = {
     float: "right",
-    width: "10%",
-    paddingTop: "10px",
-    paddingLeft: "30px"
+    width: "25%",
+    paddingTop: "10px"
   };
 
   return (

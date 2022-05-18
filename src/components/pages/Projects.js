@@ -6,9 +6,9 @@ const Projects = ( props ) => {
   const projects = data.projects;
   
   const style = {
-    display: "flex-grid",
     alignItems: "center",
     textAlign: "center",
+    padding: "15%",
   };
 
   const projectStyle = {
@@ -49,29 +49,31 @@ const Projects = ( props ) => {
   }
 
   return (
-    <div style = {style}> 
-      <h2 style = {style}>Projects</h2>  
-        <div style={{ display: "grid-flex", gridGap: 5 }}>
-            <div style={projectStyle}>
-                {oneCol.map((project, x) => (
-                  <Project project = {project} trigger = {props.trigger} setTrigger = {props.setTrigger} index = {props.index} setIndex = {props.setIndex}/>
-                ))} 
-            </div> 
-            <div style={projectStyle}> 
-                {twoCol.map((project, x) => (
-                  <Project project = {project} trigger = {props.trigger} setTrigger = {props.setTrigger} index = {props.index} setIndex = {props.setIndex}/>
-                ))} 
-            </div>  
-            <div style={projectStyle}>
-                {threeCol.map((project, x) => (
-                  <Project project = {project} trigger = {props.trigger} setTrigger = {props.setTrigger} index = {props.index} setIndex = {props.setIndex}/>
-                ))} 
-            </div>  
-            <div style={projectStyle}>
-                {fourCol.map((project, x) => (
-                  <Project project = {project} trigger = {props.trigger} setTrigger = {props.setTrigger} index = {props.index} setIndex = {props.setIndex}/>
-                ))} 
-            </div>    
+    <div style = {style}>
+      <div>
+        <h2 >Projects</h2>  
+      </div>
+      <div style={{ display: "grid-flex", gridTemplateColumns: "repeat(4, 1fr)", gridGap: 5 }}>
+          <div style={projectStyle}>
+              {oneCol.map((project, x) => (
+                <Project project = {project} trigger = {props.trigger} setTrigger = {props.setTrigger} index = {props.index} setIndex = {props.setIndex}/>
+              ))} 
+          </div> 
+          <div style={projectStyle}> 
+              {twoCol.map((project, x) => (
+                <Project project = {project} trigger = {props.trigger} setTrigger = {props.setTrigger} index = {props.index} setIndex = {props.setIndex}/>
+              ))} 
+          </div>  
+          <div style={projectStyle}>
+              {threeCol.map((project, x) => (
+                <Project project = {project} trigger = {props.trigger} setTrigger = {props.setTrigger} index = {props.index} setIndex = {props.setIndex}/>
+              ))} 
+          </div>  
+          <div style={projectStyle}>
+              {fourCol.map((project, x) => (
+                <Project project = {project} trigger = {props.trigger} setTrigger = {props.setTrigger} index = {props.index} setIndex = {props.setIndex}/>
+              ))} 
+          </div>   
         </div>
     </div>
   )
