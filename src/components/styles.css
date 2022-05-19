@@ -1,0 +1,116 @@
+.Carousel
+{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.image 
+{
+    height: 20pc;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.image.image1 
+{
+    background: url("../img/badlands.jpg");
+    background-size: cover;
+}
+
+.image.image2 
+{
+    background: url("../img/joshuaTree.JPG");
+    background-size: cover;
+}
+
+.image.image3 
+{
+    background: url("../img/lajolla.JPG");
+    background-size: cover;
+}
+
+.image.image4 
+{
+    background: url("../img/roxborough.JPG");
+    background-size: cover;
+}
+
+.image.image5 
+{
+    background: url("../img/yosemite.jpg");
+    background-size: cover;
+}
+
+.image.image6 
+{
+    background: url("../img/deathvalley.jpg");
+    background-size: cover;
+}
+
+* {
+    -webkit-user-drag: none;
+    user-select: none;
+    box-sizing: border-box;
+  }
+  
+  .rpc-wrapper {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .rpc-content-wrapper {
+    white-space: nowrap;
+    cursor: grab;
+  }
+  
+  .rpc-content-item {
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .rpc-content-control-btns {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .rpc-content-controls button {
+    font-family: sans-serif;
+    border: 0;
+    outline: none;
+    background: black;
+    padding: 10px 20px;
+    margin: 8px 1px;
+    cursor: pointer;
+  }
+  .rpc-content-controls button:hover {
+    background: black;
+  }
+  .rpc-content-controls button:active {
+    background: black;
+  }
+  .rpc-content-controls .rpc-prev-btn {
+    border-radius: 7px 0 0 7px;
+  }
+  .rpc-content-controls .rpc-next-btn {
+    border-radius: 0 7px 7px 0;
+  }
+  
+  .rpc-content-controls .rpc-content-control-dots {
+    display: flex;
+    justify-content: center;
+  }
+  .rpc-content-controls .rpc-content-control-dots .rpc-control-dot {
+    border-radius: 10px;
+    height: 10px;
+    width: 10px;
+    background: black;
+    margin: 5px;
+    cursor: pointer;
+  }
+  .rpc-content-controls .rpc-content-control-dots .rpc-control-dot.active {
+    background: #4286f4a2;
+  }
+  .rpc-content-controls .rpc-content-control-dots .rpc-control-dot.hide {
+    display: none;
+  } 
