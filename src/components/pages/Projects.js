@@ -11,14 +11,14 @@ const Projects = ( props ) => {
     padding: "15%",
   };
 
-  const projectStyle = {
+  const projectStyle = 
+  {
     display: "inline-table",
     marginTop: "20px",
     marginBottom: "20px",
     marginRight: "20px",
     marginLeft: "20px"
   }
-
 
   var oneCol = []
   var twoCol = []
