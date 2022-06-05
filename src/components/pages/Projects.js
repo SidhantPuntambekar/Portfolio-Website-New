@@ -99,7 +99,7 @@ export default function BasicCard() {
                       Cyberhood
                     </Typography>
                     <Typography style={{color:"white"}} variant="body2" color="text.secondary">
-                    Cyberhood Project for HackCU VI. Keeping networks safer for everyone using a wifi sniffer program called Kismet while storing device data in a MongoDB database with analysis in MongoDB Compass.
+                    Keeping networks safer for everyone using a wifi sniffer program called Kismet while storing device data in a MongoDB database with analysis in MongoDB Compass.
                     </Typography>
                   </CardContent>
                   <CardActions>
