@@ -7,12 +7,19 @@ const Experiences = () => {
   const style = {
     alignItems: "center",
     textAlign: "center",
-    position: "relative"
+    position: "relative",
   };
+  
+  const headerStyle = {
+    padding: "2%"
+  }
 
   return (
     <div style={style}>
-      <h2>Experience</h2>
+      <div style={headerStyle}>
+        <h2>Experience</h2>
+      </div>
+
       {experience.map((experience, x) => (
         <Experience
           experience = {experience}
