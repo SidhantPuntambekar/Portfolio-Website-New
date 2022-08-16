@@ -29,23 +29,23 @@ const About = () => {
     <div style={style}>
       <h2>About Me</h2>
       <div>
-        <h4 style={{ margin: "20px" }}>
+        <h3 style={{ margin: "20px" }}>
           Welcome to my portfolio website! My name is Sidhant Puntambekar and I
           am currently a junior undergraduate at the University of Colorado,
           Boulder.  
-        </h4>
-        <h4 style={{ margin: "20px" }}>
+        </h3>
+        <h3 style={{ margin: "20px" }}>
             I am currently majoring in Computer Science and am minoring
           in Computational
           Biology and Molecular, Cellular, and Developmental Biology. 
-        </h4>
-        <h4 style={{ margin: "20px" }}>
+        </h3>
+        <h3 style={{ margin: "20px" }}>
             While my main passions are in the areas of Computer Science
           and Molecular Biology, I am infatuated with learning about all subject
           areas. Some of my other favorite activities are chess, reading up on
           military history, playing the guitar, playing the drums, and doing Tae
           Kwon Do. I also enjoy listening to music and watching movies.
-        </h4>
+        </h3>
           
         <a href={Resume} without rel="noopener noreferrer" target="_blank">
           <button
