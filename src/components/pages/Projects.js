@@ -21,7 +21,7 @@ const style =
 {
     alignItems: "center",
     textAlign: "center",
-    padding: "15%",
+    padding: "17%",
 };
 
 const outerTheme = createTheme({
@@ -37,7 +37,7 @@ export default function BasicCard() {
   return (
     <div style = {style}>
       <div>
-        <h2 >Projects</h2>  
+        <h2>Projects</h2>  
       </div>
       <Grid container spacing={5}>
         <Grid item xs={12} sm={6} md={4}>
@@ -143,7 +143,7 @@ export default function BasicCard() {
                   />
                   <CardContent>
                     <Typography style={{color:"white"}} gutterBottom variant="h4" component="div">
-                      Sorry! Game
+                      Sorry! Board Game
                     </Typography>
                     <Typography style={{color:"white"}} variant="body2" color="text.secondary">
                       A recreation of the Sorry! Board Game built with Java and the JavaFX framework. Leverages object oriented 

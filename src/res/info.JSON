@@ -27,7 +27,11 @@
       "organization": "Exact Sciences",
       "role": "Computational Biology, Data Science Intern",
       "bullets": [
-        "• Incoming Computational Biology and Data Science Intern at Thrive Earlier Detect/MCED at Exact Sciences working on cancer diagnostic modeling for CancerSEEK (a liquid biopsy/blood sample technology for multi-cancer early detection)"
+        "• Conducted statistical analysis in Python, R, and Scala for accuracy improvements of short mutational variant biomarker signal in CancerSEEK, a liquid biopsy diagnostic test for the early detection of stage I and II cancers.",
+        "• Analyzed the effects of unique molecular identifier (UMI) contamination on 40 genomic primer targets in the SafeR-SeqS duplex sequencing assay to improve sensitivity and specificity of a rare variant machine learning based logistic regression classifier.",
+        "• Worked with UMI-tools open source Python package to calculate edit distances between UMIs in the same primer target and pairwise UMI ligation end position distances to differentiate between bona-fide mutations and cases of library prep/sequencing errors such as PCR recombination.",
+        "• Leveraged Apache Spark SQL, Microsoft Azure Blob Storage, and Azure Databricks to detect UMI contamination occurrences from over 430,000+ next generation sequencing reads.",
+        "• Presented short variants contamination findings to computational biology/ML group colleagues and key stakeholders in the Multi-Cancer Early Detection team."
       ],
       "imgFileName": "exact2.png",
       "imgSize": "110px"
@@ -35,12 +39,13 @@
 
     {
       "organization": "Harvard Medical School",
-      "role": "Biomedical Informatics Research Assistant",
+      "role": "Biomedical Informatics Research Intern",
       "bullets": [
-        "• Biomedical Informatics Research Intern at Harvard Medical School working in the computational genomics lab of Dr. Shamil Sunyaev.",
-        "• Analyzing the Broad Institute's Genome Aggregation Database (gnomAD) dataset to better quantify and understand the mutational constraint on missense and loss of function genomic variants using a fine-scale mutation map.",
-        "• Modelled mutational spectrum using machine learning techniques (logistic regressions) on a training set of over 125,000 synonymous genome and exome sequences.",
-        "• Built a classifier to predict which genes are most likely to succumb to debilitating loss of function mutations."
+        "• Worked as a Summer Institute in Biomedical Informatics Research Intern at Harvard Medical School's Department of Biomedical Informatics (DBMI) and Brigham and Women's hospital in the computational genomics lab of Dr. Shamil Sunyaev.",
+        "• Analyzed the Broad Institute's Genome Aggregation Database (gnomAD) dataset to better quantify and understand the mutational constraint on missense and loss of function genomic variants using a fine-scale mutational map.",
+        "• Modeled mutational spectrum using machine learning techniques (logistic regressions) on a training set of over 125,000 synonymous genome and exome sequences.",
+        "• Built a logistic regression classifier to predict genes that are more likely to succumb to debilitating loss of function mutations.",
+        "• Presented research findings in scientific presentation format to fellow interns and Harvard Medical School DBMI Faculty."
       ],
       "imgFileName": "harvardmed.png",
       "imgSize": "110px"
@@ -50,9 +55,10 @@
       "organization": "HackCU",
       "role": "Tech Team Director",
       "bullets": [
-        "• Developed the new HackCU hub website (hackcu.org) utilizing full stack development tools and continuous integration (CI/CD) as part of the technology/software development team.",
+        "• Developed the new HackCU hub website (hackcu.org) utilizing full stack development tools, continuous integration (CI/CD), and end to end testing as part of the technology/software development team.",
+        "• Worked with software development team to create the HackCU 8 Spring 2022 Hackathon website (https://hackcu.org/hackcu8/).",
         "• Migrating HackCU website over to Next.js framework to integrate backend, database, and content management system calls.",
-        "• Hosted workshops during hackathons on bioinformatics and recruited new contributors to HackCU Development team."
+        "• Hosted workshops during hackathons on single cell RNA sequencing analysis bioinformatics and recruited new contributors to HackCU software development team."
       ],
       "imgFileName": "black.png",
       "imgSize": "110px"
@@ -62,9 +68,12 @@
       "organization": "RNA Bioscience Initiative, University of Colorado Anschutz Medical School",
       "role": "Bioinformatics Research Intern",
       "bullets": [
-        "• Primary author on research paper published in Public Library Of Sciences Biology journal (May, 2021) regarding the problem of single cell RNA-sequencing metadata submission in gene expression databases (NCBI GEO).",
-        "• Developed R Shiny web application for the clustifyr R library in order to facilitate analysis of scRNA-seq data.",
-        "• Conducted a meta-analysis of scRNA-seq data sets from NCBI Gene Expression Omnibus and Tabula Muris (mouse scRNA-seq atlas) utilizing principal component analysis, graph based clustering, and uniform manifold approximation and projection."
+        "• Worked in the RNA Bioscience Initiative Bioinformatics Fellows Group under the mentorship of Dr. Jay Hesselberth, Dr. Kent Riemondy, and Dr. Rui Fu.",
+        "• Authored (primary authorship) research paper published in Public Library Of Sciences Biology journal (May, 2021) regarding problem of single cell RNA-sequencing metadata submission in gene expression databases (NCBI GEO). Paper published in PLOS Biology Journal: https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001077",
+        "• Developed an RShiny web application to run the ClustifyR R library on scRNA-seq processed counts matrix and associated metadata to generate RNA fragment correlation matrix, inferred cell-types, and gene expression heatmap visualizations.",
+        "• Authored utility functions and reference atlas dataset to open source R package ClustifyR which allows users to infer cell types in scRNA-seq data using reference bulk RNA-seq data or gene expression data sets. https://rnabioco.github.io/clustifyr/authors.html",
+        "• Created a meta-analysis of 15 scRNA-seq data sets from NCBI Gene Expression Omnibus and Tabula Muris (mouse scRNA-seq data) utilizing principal component analysis (PCA), graph based clustering, and uniform manifold approximation and projection (UMAP).",
+        "• Presented research and associated paper at virtual Keystone Symposia Single Cell Biology EK:26 poster session."
       ],
       "imgFileName": "rbi.png",
       "imgSize": "120px"
@@ -74,7 +83,9 @@
       "organization": "University of Colorado Boulder Department of Computer Science",
       "role": "Learning Assistant - CSCI 1300",
       "bullets": [
-        "• Assisted students in learning course material for CSCI 1300: Starting Computing by holding weekly office hours, conducting recitation periods, and participating in crafting lesson plans."
+        "• Guided students in learning course material for CSCI 1300: Starting Computing by holding weekly office hours, managing recitation periods, and crafting lesson plans.",
+        "• Answered C++ programming questions on topics such as pointers, data structures, and recursion in recitation period as well as on Piazza online forum.",
+        "• Met with CSCI 1300 instructional faculty to design course assignments, projects, and examinations as well as anticipate student difficulties."
       ],
       "imgFileName": "cu.png",
       "imgSize": "110px"
@@ -84,8 +95,10 @@
       "organization": "The National Center for Atmospheric Research (NCAR)",
       "role": "Research Intern",
       "bullets": [
-        "• Researched landfalling tropical cyclones along the US eastern coastline to improve computational forecasting models using statistical analysis and data visualization from Extended Best Track Hurricane data set.",
-        "• Presented research at 99th American Meteorological Society conference in Phoenix, Arizona."
+        "• Conducted research into the wind field size of US landfalling tropical cyclones on forecasted land falling location.",
+        "• Worked with Unix shell, Perl, and MATLAB for statistical analysis and visualization of data from HURDAT2 Extended Best Track Hurricane data set from the National Hurricane Center.",
+        "• Presented a research poster of my hurricane analysis to scientific fellows, research staff, and fellow interns at NCAR.",
+        "• Selected by NCAR and accepted to present research at 99th American Meteorological Society conference in January 2019."
       ],
       "imgFileName": "ncar-modified.png",
       "imgSize": "110px"
