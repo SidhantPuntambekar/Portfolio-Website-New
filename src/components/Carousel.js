@@ -3,7 +3,7 @@ import "./styles.css";
 import { CarouselWrapper } from "react-pretty-carousel";
 
 export default function Carousel() {
-  const [items, setItems] = useState(3);
+  const [items, setItems] = useState(1);
 
   useEffect(() => {
         if (window.innerWidth < 576) 

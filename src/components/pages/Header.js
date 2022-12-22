@@ -18,7 +18,7 @@ const Header = () => {
         <img className="center_circle_image" src={image.default} />
         <h1>Hello!</h1>
         <h2>I'm Sidhant Puntambekar</h2>
-        <p>Computer Scientist | Computational Biologist</p>
+        <h3>Computer Scientist | Computational Biologist</h3>
         <a className="social" href="mailto:sidhantnp@yahoo.com">
                 <FaRegEnvelope style={iconStyle} />   
         </a>

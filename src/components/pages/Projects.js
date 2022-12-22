@@ -50,10 +50,10 @@ export default function BasicCard() {
                 />
                 <CardContent >
                   <Typography style={{color:"white"}} gutterBottom variant="h4" component="div">
-                    ClustifyR Web Application
+                    ClustifyR Web App
                   </Typography>
                   <Typography style={{color:"white"}} variant="body2" color="text.secondary">
-                    An R Shiny app to help with single cell RNA-seq benchmarking and analysis with the ClustifyR open source R library.
+                    An RShiny  application to assist with single cell RNA-seq clustering analysis. Allows annotation of cell types on the fly and creation of gene expression visualizations.
                   </Typography>
                 </CardContent>
                 <CardActions>
@@ -92,7 +92,7 @@ export default function BasicCard() {
                   <CardMedia
                     style={{height: 200, paddingTop: '56.25%'}}
                     image={require('../../img/cyberhood_alt.jpg').default}
-                    alt="ClustifyR Web Application"
+                    alt="Cyberhood"
                   />
                   <CardContent>
                     <Typography style={{color:"white"}} gutterBottom variant="h4" component="div">
@@ -104,7 +104,7 @@ export default function BasicCard() {
                   </CardContent>
                   <CardActions>
                     <Button size="small" href="https://github.com/SidhantPuntambekar/team-cyberhood-1" target="_blank">Code</Button>
-                    <Button size="small" href="devpost.com/software/cyberhood-6xg3us" target="_blank">Link</Button>
+                    <Button size="small" href="https://devpost.com/software/cyberhood-6xg3us" target="_blank">Link</Button>
                   </CardActions>
                 </Card>
               </ThemeProvider>
@@ -113,7 +113,7 @@ export default function BasicCard() {
               <ThemeProvider theme={outerTheme}>
                 <Card style={{backgroundColor: "#4E342E"}} elevation={12} sx= {{':hover': { boxShadow: 20}}}>
                   <CardMedia
-                    style={{height: 250}}
+                    style={{height: 200, paddingTop: '56.25%'}}
                     image={require('../../img/someta_graph.png').default}
                     alt="ClustifyR Web Application"
                   />
@@ -137,7 +137,7 @@ export default function BasicCard() {
               <ThemeProvider theme={outerTheme}>
                 <Card style={{backgroundColor: "#4E342E"}} elevation={12} sx= {{':hover': { boxShadow: 20}}}>
                   <CardMedia
-                    style={{height: 250}}
+                    style={{height: 200, paddingTop: '56.25%'}}
                     image={require('../../img/sorry.png').default}
                     alt="ClustifyR Web Application"
                   />
@@ -147,7 +147,7 @@ export default function BasicCard() {
                     </Typography>
                     <Typography style={{color:"white"}} variant="body2" color="text.secondary">
                       A recreation of the Sorry! Board Game built with Java and the JavaFX framework. Leverages object oriented 
-                      Gang of Four design patterns such as Factory, Model-View-Controller, Command, and Observer. 
+                      design patterns such as Factory, Model-View-Controller, Command, and Observer. 
                     </Typography>
                   </CardContent>
                   <CardActions>
@@ -160,7 +160,7 @@ export default function BasicCard() {
               <ThemeProvider theme={outerTheme}>
                 <Card style={{backgroundColor: "#4E342E"}} elevation={12} sx= {{':hover': { boxShadow: 20}}}>
                   <CardMedia
-                    style={{height: 250}}
+                    style={{height: 200, paddingTop: '56.25%'}}
                     image={require('../../img/genMutation.png').default}
                     alt="Gen Mutation"
                   />
