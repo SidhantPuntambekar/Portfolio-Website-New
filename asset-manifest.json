@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.9c295aff.chunk.css",
-    "main.js": "/static/js/main.322bcc64.chunk.js",
-    "main.js.map": "/static/js/main.322bcc64.chunk.js.map",
+    "main.js": "/static/js/main.732e75eb.chunk.js",
+    "main.js.map": "/static/js/main.732e75eb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.42436112.js",
     "runtime-main.js.map": "/static/js/runtime-main.42436112.js.map",
     "static/js/2.f9e7c081.chunk.js": "/static/js/2.f9e7c081.chunk.js",
@@ -12,7 +12,7 @@
     "index.html": "/index.html",
     "static/css/main.9c295aff.chunk.css.map": "/static/css/main.9c295aff.chunk.css.map",
     "static/js/2.f9e7c081.chunk.js.LICENSE.txt": "/static/js/2.f9e7c081.chunk.js.LICENSE.txt",
-    "static/media/ResumePuntambekarSummer2022OnePagerLinkedin.c9bffdcf.pdf": "/static/media/ResumePuntambekarSummer2022OnePagerLinkedin.c9bffdcf.pdf",
+    "static/media/SidhantPuntambekarResumeSpring23.49bd2003.pdf": "/static/media/SidhantPuntambekarResumeSpring23.49bd2003.pdf",
     "static/media/anschutz.png": "/static/media/anschutz.e28c06ac.png",
     "static/media/styles.css": "/static/media/yosemite.91629375.jpg",
     "static/media/black.png": "/static/media/black.3b1e2ff7.png",
@@ -46,6 +46,6 @@
     "static/js/runtime-main.42436112.js",
     "static/js/2.f9e7c081.chunk.js",
     "static/css/main.9c295aff.chunk.css",
-    "static/js/main.322bcc64.chunk.js"
+    "static/js/main.732e75eb.chunk.js"
   ]
 }
