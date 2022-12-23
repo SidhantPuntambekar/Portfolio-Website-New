@@ -35,14 +35,14 @@ const About = () => {
           Boulder.  
         </h3>
         <h3 style={{ margin: "20px" }}>
-          I am currently majoring in Computer Science and minoring
+          I am majoring in Computer Science and minoring
           in Computational Biology as well as Molecular, Cellular, and Developmental Biology. 
         </h3>
         <h3 style={{ margin: "20px" }}>
           While my main passions are Computer Science
           and Molecular Biology, I am infatuated with learning about all subject
           areas. Some of my other favorite activities are chess, reading up on
-          military history, playing electric guitar, playing drum kit, and doing Tae
+          military history, playing electric guitar, and doing Tae
           Kwon Do. I also enjoy listening to music and watching movies.
         </h3>
           
