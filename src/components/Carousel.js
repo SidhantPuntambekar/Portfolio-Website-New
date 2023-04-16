@@ -10,8 +10,6 @@ const Carousel = () => {
   const style = {
     alignItems: "center",
     textAlign: "center",
-    marginLeft: "auto",
-    marginRight: "auto",
     position: "relative"
   };
 
