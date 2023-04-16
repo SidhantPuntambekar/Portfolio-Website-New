@@ -1,34 +1,19 @@
 import React, { useState, useEffect } from "react";
 import "./styles.css";
 import badlands from '../img/badlands.jpg'
-import joshuaTree from '../img/joshuaTree.JPG'
+import roxborough from '../img/roxborough.JPG'
 import lajolla from '../img/lajolla.JPG'
 import yosemite from '../img/yosemite.jpg'
 import deathvalley from '../img/deathvalley.jpg'
 
-export default function Carousel() {
-  const [items, setItems] = useState(1);
-
-  useEffect(() => {
-        if (window.innerWidth < 576) 
-        {
-            setItems(1);
-        }
-        else 
-        {
-            setItems(3);
-        }
-        window.addEventListener("resize", () => {
-        if (window.innerWidth < 576) 
-        {
-            setItems(1);
-        }
-        else 
-        {
-            setItems(3);
-        }
-    });
-  }, []);
+const Carousel = () => {
+  const style = {
+    alignItems: "center",
+    textAlign: "center",
+    marginLeft: "auto",
+    marginRight: "auto",
+    position: "relative"
+  };
 
   return (
     // <div className="Carousel">
@@ -44,19 +29,20 @@ export default function Carousel() {
     //   </CarouselWrapper>
     // </div>
 
-    <div className="Carousel">
+    <div style={style}>
+      <div className="Carousel">
       <h2>Photos</h2>
-      <h3>Thanks for stopping by! Enjoy some of the photos I have taken on my travels.</h3>
+      <h3>Thanks for stopping by my website! Enjoy some of the photos I have taken on my travels.</h3>
       <section class="gallery">
         <div class="gallery__item">
-          <input type="radio" id="img-1" checked name="gallery" class="gallery__selector"/>
+          <input type="radio" id="img-1" name="gallery" class="gallery__selector" defaultChecked/>
           <img class="gallery__img" src={badlands} alt="Badlands"/>
           <label for="img-1" class="gallery__thumb"><img src={badlands} alt="Badlands"/></label>
         </div>
         <div class="gallery__item">
           <input type="radio" id="img-2" name="gallery" class="gallery__selector"/>
-          <img class="gallery__img" src={joshuaTree} alt="Joshua Tree"/>
-          <label for="img-2" class="gallery__thumb"><img src={joshuaTree} alt="Joshua Tree"/></label>
+          <img class="gallery__img" src={roxborough} alt="Joshua Tree"/>
+          <label for="img-2" class="gallery__thumb"><img src={roxborough} alt="Roxborough"/></label>
         </div>
         <div class="gallery__item">
           <input type="radio" id="img-3" name="gallery" class="gallery__selector"/>
@@ -75,5 +61,8 @@ export default function Carousel() {
         </div>
       </section>
     </div>
+    </div>
   );
 }
+
+export default Carousel

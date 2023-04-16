@@ -1,3 +1,13 @@
+.container {
+  margin: 0px auto;
+  padding: 0 0 100px 0;
+}
+@media (max-width: 625px) {
+  .container {
+    padding: 1px;
+  }
+}
+
 .Carousel
 {
     font-family: sans-serif;
@@ -45,64 +55,6 @@
 {
     background: url("../img/deathvalley.jpg");
     background-size: cover;
-}
-
-img {
-  max-width: 100%;
-  vertical-align: top;
-}
-
-.centered{
-  text-align: center;
-}
-
-
-.gallery {
-  display: flex;
-  margin: 10px auto;
-  width: 675px;
-  max-height: 800px;
-  position: relative;
-  float: center;
-  padding-top: 66.6666666667%;
-}
-
-@media screen and (min-width: 675px) {
-  .gallery {
-    padding-top: 500px;
-  }
-}
-
-.gallery__img {
-  position: absolute;
-  max-height: 550px;
-  
-  top: 0;
-  left: 0;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-}
-
-.gallery__thumb {
-  width: 121px;
-  height: 121px;
-  padding-top: 6px;
-  margin: 6px;
-  display: block;
-}
-
-.gallery__selector {
-  position: absolute;
-  opacity: 0;
-  visibility: hidden;
-}
-
-.gallery__selector:checked + .gallery__img {
-  opacity: 1;
-}
-
-.gallery__selector:checked ~ .gallery__thumb > img {
-  box-shadow: 0 0 0 0px #0be2f6;
 }
 
 * {
@@ -172,3 +124,59 @@ img {
   .rpc-content-controls .rpc-content-control-dots .rpc-control-dot.hide {
     display: none;
   } 
+
+  img {
+    max-width: 100%;
+    vertical-align: top;
+  }
+  
+  .centered{
+    text-align: center;
+  }
+  
+  .gallery {
+    display: flex;
+    margin: 10px auto;
+    width: 675px;
+    max-height: 800px;
+    position: relative;
+    float: center;
+    padding-top: 66.6666666667%;
+  }
+  
+  @media screen and (min-width: 675px) {
+    .gallery {
+      padding-top: 500px;
+    }
+  }
+  
+  .gallery__img {
+    position: absolute;
+    max-height: 550px;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .gallery__thumb {
+    width: 124px;
+    height: 124px;
+    padding-top: 6px;
+    margin: 6px;
+    display: block;
+  }
+  
+  .gallery__selector {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .gallery__selector:checked + .gallery__img {
+    opacity: 1;
+  }
+  
+  .gallery__selector:checked ~ .gallery__thumb > img {
+    box-shadow: 0 0 0 3px #0be2f6;
+  }
