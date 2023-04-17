@@ -14,38 +14,39 @@ const Carousel = () => {
   };
 
   return (
-    <div style={style}>
-      <div className="Carousel">
-      <h2>Photos</h2>
-      <h3>Thanks for stopping by my website! Enjoy some of the photos I have taken on my travels.</h3>
-      <section class="gallery">
-        <div class="gallery__item">
-          <input type="radio" id="img-1" name="gallery" class="gallery__selector" defaultChecked/>
-          <img class="gallery__img" src={badlands} alt="Badlands"/>
-          <label for="img-1" class="gallery__thumb"><img src={badlands} alt="Badlands"/></label>
-        </div>
-        <div class="gallery__item">
-          <input type="radio" id="img-2" name="gallery" class="gallery__selector"/>
-          <img class="gallery__img" src={roxborough} alt="Joshua Tree"/>
-          <label for="img-2" class="gallery__thumb"><img src={roxborough} alt="Roxborough"/></label>
-        </div>
-        <div class="gallery__item">
-          <input type="radio" id="img-3" name="gallery" class="gallery__selector"/>
-          <img class="gallery__img" src={lajolla} alt="La Jolla"/>
-          <label for="img-3" class="gallery__thumb"><img src={lajolla} alt="La Jolla"/></label>
-        </div>
-        <div class="gallery__item">
-          <input type="radio" id="img-4" name="gallery" class="gallery__selector"/>
-          <img class="gallery__img" src={yosemite} alt="Yosemite"/>
-          <label for="img-4" class="gallery__thumb"><img src={yosemite} alt="Yosemite"/></label>
-        </div>
-        <div class="gallery__item">
-          <input type="radio" id="img-5" name="gallery" class="gallery__selector"/>
-          <img class="gallery__img" src={deathvalley} alt="Death Valley"/>
-          <label for="img-5" class="gallery__thumb"><img src={deathvalley} alt="Death Valley"/></label>
-        </div>
-      </section>
-    </div>
+    <div className="container">
+      <div style={style}>
+      
+        <h2>Photos</h2>
+        <h3>Thanks for stopping by my website! Enjoy some of the photos I have taken on my travels.</h3>
+        <section class="gallery">
+          <div class="radio-buttons gallery__item">
+            <input type="radio" id="img-1" name="gallery" class="gallery__selector" defaultChecked/>
+            <img class="gallery__img" src={badlands} alt="Badlands"/>
+            <label for="img-1" class="gallery__thumb"><img src={badlands} alt="Badlands"/></label>
+          </div>
+          <div class="radio-buttons gallery__item">
+            <input type="radio" id="img-2" name="gallery" class="gallery__selector"/>
+            <img class="gallery__img" src={roxborough} alt="Joshua Tree"/>
+            <label for="img-2" class="gallery__thumb"><img src={roxborough} alt="Roxborough"/></label>
+          </div>
+          <div class="radio-buttons gallery__item">
+            <input type="radio" id="img-3" name="gallery" class="gallery__selector"/>
+            <img class="gallery__img" src={lajolla} alt="La Jolla"/>
+            <label for="img-3" class="gallery__thumb"><img src={lajolla} alt="La Jolla"/></label>
+          </div>
+          <div class="radio-buttons gallery__item">
+            <input type="radio" id="img-4" name="gallery" class="gallery__selector"/>
+            <img class="gallery__img" src={yosemite} alt="Yosemite"/>
+            <label for="img-4" class="gallery__thumb"><img src={yosemite} alt="Yosemite"/></label>
+          </div>
+          <div class="radio-buttons gallery__item">
+            <input type="radio" id="img-5" name="gallery" class="gallery__selector"/>
+            <img class="gallery__img" src={deathvalley} alt="Death Valley"/>
+            <label for="img-5" class="gallery__thumb"><img src={deathvalley} alt="Death Valley"/></label>
+          </div>
+        </section>
+      </div>
     </div>
   );
 }

@@ -22,7 +22,7 @@ function App(props) {
   };
 
   return (
-    <div className="container">
+    <div>
       <Header />
       <div style={style}>
         <About />

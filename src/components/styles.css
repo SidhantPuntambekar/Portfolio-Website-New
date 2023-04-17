@@ -1,12 +1,11 @@
 .container {
-  margin: 0px auto;
-  padding: 0 0 100px 0;
+  margin: 50px auto;
+  max-width: 675px;
 }
-
-.Carousel
-{
-    font-family: sans-serif;
-    text-align: center;
+@media (max-width: 625px) {
+  .container {
+    padding: 20px;
+  }
 }
 
 .image 
@@ -77,7 +76,6 @@ img {
   max-height: 800px;
   position: relative;
   float: center;
-  padding-top: 66.6666666667%;
 }
 
 @media screen and (min-width: 675px) {
@@ -90,11 +88,6 @@ img {
   .gallery {
     padding-top: 300px;
   }
-  .gallery__thumb {
-    padding-top: 6px;
-    margin: 6px;
-    display: block;
-  }
   .gallery__img {
     position: absolute;
     max-width: 400px;
@@ -103,10 +96,12 @@ img {
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
   }
-  .gallery__selector {
-    position: absolute;
-    opacity: 0;
-    visibility: hidden;
+}
+
+@media screen and (max-width: 675px) {
+  .gallery__thumb {
+    width: 10px;
+    height: 10px;
   }
 }
 

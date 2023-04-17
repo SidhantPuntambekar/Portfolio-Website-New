@@ -60,7 +60,7 @@ const Header = () => {
             target="_blank"
             rel="noreferrer"
         >
-            <FaReddit  style={iconStyle}/>
+            <FaReddit style={iconStyle}/>
         </a>
       </div>
     </div>

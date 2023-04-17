@@ -27,9 +27,9 @@ const Blog = () => {
       };
 
     return (
-        <div style={style}>
+        <div className = "container" style={style}>
             <h2>Blogs</h2> 
-            <h3>Welcome to the blog section of my website. Click the buttons below if you are interested in reading more about my blogs on historical events or chess.</h3>
+            <h3>Welcome to the blog section of my website. Click the buttons if you are interested in reading more about my blogs on historical events or chess.</h3>
             <a href="https://sidhantpuntambekar.surge.sh/History" without rel="noopener noreferrer" target="_blank">
             <button
                 trailingIcon="picture_as_pdf"
