@@ -5,7 +5,7 @@ const Travel = () => {
     const style = {
         alignItems: "center",
         textAlign: "center",
-        position: "relative"
+        position: "relative",
     }
     
     // const mapStyle = {

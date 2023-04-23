@@ -87,6 +87,9 @@ img {
 @media screen and (max-width: 675px) {
   .gallery {
     padding-top: 300px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
   }
   .gallery__img {
     position: absolute;
@@ -95,13 +98,6 @@ img {
     left: 0;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
-  }
-}
-
-@media screen and (max-width: 675px) {
-  .gallery__thumb {
-    width: 10px;
-    height: 10px;
   }
 }
 
