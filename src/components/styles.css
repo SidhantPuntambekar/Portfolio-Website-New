@@ -3,8 +3,8 @@
   max-width: 1250px;
 }
 @media (max-width: 625px) {
-  .container {
-    padding: 20px;
+  .container-about {
+    padding: 0px;
   }
 }
 
@@ -14,7 +14,7 @@
 }
 @media (max-width: 625px) {
   .container {
-    padding: 20px;
+    padding: 0px;
   }
 }
 

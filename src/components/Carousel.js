@@ -16,7 +16,6 @@ const Carousel = () => {
   return (
     <div className="container">
       <div style={style}>
-      
         <h2>Photos</h2>
         <h3>Thanks for stopping by my website! Enjoy some of the photos I have taken on my travels.</h3>
         <section class="gallery">

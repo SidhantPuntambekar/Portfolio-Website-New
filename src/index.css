@@ -50,6 +50,16 @@ body {
   text-align: center;
   margin-top: 10%;
 }
+@media (max-width: 625px) {
+  .jumbotron-text {
+     /*TAGLINE UNDER NAME*/
+    font-weight: 400;
+    font-size: 1.3em;
+    color: white;
+    text-align: center;
+    margin-top: 0%;
+  }
+}
 
 .jumbotron-text h1 {
   /*YOUR NAME*/
