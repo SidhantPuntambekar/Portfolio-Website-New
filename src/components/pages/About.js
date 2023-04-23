@@ -26,7 +26,8 @@ const About = () => {
   };
 
   return (
-    <div style={style}>
+    <div className="container-about">
+      <div style={style}>
       <h2>About Me</h2>
       <div>
         <h4 style={{ margin: "20px" }}>
@@ -55,6 +56,7 @@ const About = () => {
           </button>
         </a>
       </div>
+    </div>
     </div>
   );
 };

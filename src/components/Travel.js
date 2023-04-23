@@ -8,13 +8,6 @@ const Travel = () => {
         position: "relative",
     }
     
-    // const mapStyle = {
-    //     height: "550px",
-    //     width: "675px", 
-    //     display: "inline-block",
-    //     overflow: "hidden",
-    // }
-    
     const mapStyle = {
         height: "550px",
         width: "100%", 

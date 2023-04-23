@@ -1,3 +1,13 @@
+.container-about {
+  margin: 50px auto;
+  max-width: 1250px;
+}
+@media (max-width: 625px) {
+  .container {
+    padding: 20px;
+  }
+}
+
 .container {
   margin: 50px auto;
   max-width: 675px;
@@ -72,10 +82,11 @@ img {
 .gallery {
   display: flex;
   margin: 10px auto;
-  width: 675px;
+  width: auto;
   max-height: 800px;
   position: relative;
   float: center;
+  padding-top: 66.6666666667%;
 }
 
 @media screen and (min-width: 675px) {
@@ -86,14 +97,14 @@ img {
 
 @media screen and (max-width: 675px) {
   .gallery {
-    padding-top: 300px;
+    padding-top: 225px;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
   }
   .gallery__img {
     position: absolute;
-    max-width: 400px;
+    max-width: 300px;
     top: 0;
     left: 0;
     opacity: 0;
