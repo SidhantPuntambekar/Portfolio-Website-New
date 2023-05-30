@@ -24,6 +24,19 @@
 
   "experiences": [
     {
+      "organization": "Bionano Genomics",
+      "role": "Bioinformatics Analyst",
+      "bullets": [
+        "• Developing pipelines, algorithms, and validations informatically in Python for the detection of copy number variation events in cytogenetics data from optical genome mapping (OGM) and next generation sequencing (NGS) methods.",
+        "• Collaborating with cross-functional teams to interpret genomic data and provide insights into structural variant analysis for internal research projects and product releases.",
+        "• Curating and analyzing a comprehensive control database comprising 550+ optical genome mapping (OGM) samples, ensuring accuracy and quality control for the Bionano Solve software suite.",
+        "• Presented results in team meetings and developed copy number variation detection algorithm performance evaluation posters for conferences (ACMG 2023), fostering knowledge exchange and collaboration within the bioinformatics community."
+      ],
+      "imgFileName": "bionano.png",
+      "imgSize": "150px"
+    },
+
+    {
       "organization": "Exact Sciences",
       "role": "Computational Biology, Data Science Intern",
       "bullets": [

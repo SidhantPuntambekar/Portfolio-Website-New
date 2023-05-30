@@ -92,6 +92,15 @@ img {
 @media screen and (min-width: 675px) {
   .gallery {
     padding-top: 500px;
+    flex-wrap: wrap;
+  }
+
+  .gallery__thumb {
+    width: 150px;
+    height: 150px;
+    padding-top: 6px;
+    margin: 6px;
+    display: block;
   }
 }
 
@@ -110,6 +119,13 @@ img {
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
   }
+  .gallery__thumb {
+    width: 124px;
+    height: 124px;
+    padding-top: 6px;
+    margin: 6px;
+    display: block;
+  }
 }
 
 .gallery__img {
@@ -119,14 +135,6 @@ img {
   left: 0;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
-}
-
-.gallery__thumb {
-  width: 124px;
-  height: 124px;
-  padding-top: 6px;
-  margin: 6px;
-  display: block;
 }
 
 .gallery__selector {
