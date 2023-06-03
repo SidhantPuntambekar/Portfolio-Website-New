@@ -96,9 +96,9 @@ img {
   }
 
   .gallery__thumb {
-    width: 150px;
-    height: 150px;
-    padding-top: 6px;
+    width: 156px;
+    height: 156px;
+    padding-top: 20px;
     margin: 6px;
     display: block;
   }
