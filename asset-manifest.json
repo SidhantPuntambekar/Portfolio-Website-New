@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.3e6a7d3f.chunk.css",
+    "main.css": "/static/css/main.fe64d00e.chunk.css",
     "main.js": "/static/js/main.8b13d13d.chunk.js",
     "main.js.map": "/static/js/main.8b13d13d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8b0c50d5.js",
@@ -10,7 +10,7 @@
     "static/js/3.dbb3f5b2.chunk.js": "/static/js/3.dbb3f5b2.chunk.js",
     "static/js/3.dbb3f5b2.chunk.js.map": "/static/js/3.dbb3f5b2.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.3e6a7d3f.chunk.css.map": "/static/css/main.3e6a7d3f.chunk.css.map",
+    "static/css/main.fe64d00e.chunk.css.map": "/static/css/main.fe64d00e.chunk.css.map",
     "static/js/2.37205501.chunk.js.LICENSE.txt": "/static/js/2.37205501.chunk.js.LICENSE.txt",
     "static/media/SidhantPuntambekarResumeSpring23.49bd2003.pdf": "/static/media/SidhantPuntambekarResumeSpring23.49bd2003.pdf",
     "static/media/anschutz.png": "/static/media/anschutz.e28c06ac.png",
@@ -55,7 +55,7 @@
   "entrypoints": [
     "static/js/runtime-main.8b0c50d5.js",
     "static/js/2.37205501.chunk.js",
-    "static/css/main.3e6a7d3f.chunk.css",
+    "static/css/main.fe64d00e.chunk.css",
     "static/js/main.8b13d13d.chunk.js"
   ]
 }
