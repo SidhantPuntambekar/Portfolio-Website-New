@@ -32,12 +32,7 @@ const About = () => {
       <div>
         <h4 style={{ margin: "20px" }}>
           Welcome to my portfolio website! My name is Sidhant Puntambekar and I
-          am currently a senior undergraduate at the University of Colorado
-          Boulder.  
-        </h4>
-        <h4 style={{ margin: "20px" }}>
-          I am majoring in Computer Science and minoring
-          in Computational Biology as well as Molecular, Cellular, and Developmental Biology. 
+          am currently a Bioinformatics Analyst at Bionano Genomics in San Diego, California.  
         </h4>
         <h4 style={{ margin: "20px" }}>
           While my main passions are Computer Science
