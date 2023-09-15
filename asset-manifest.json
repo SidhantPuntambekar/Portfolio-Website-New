@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.fe64d00e.chunk.css",
-    "main.js": "/static/js/main.e20455d1.chunk.js",
-    "main.js.map": "/static/js/main.e20455d1.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.8b0c50d5.js",
-    "runtime-main.js.map": "/static/js/runtime-main.8b0c50d5.js.map",
-    "static/js/2.37205501.chunk.js": "/static/js/2.37205501.chunk.js",
-    "static/js/2.37205501.chunk.js.map": "/static/js/2.37205501.chunk.js.map",
-    "static/js/3.dbb3f5b2.chunk.js": "/static/js/3.dbb3f5b2.chunk.js",
-    "static/js/3.dbb3f5b2.chunk.js.map": "/static/js/3.dbb3f5b2.chunk.js.map",
+    "main.css": "/static/css/main.12b22f04.chunk.css",
+    "main.js": "/static/js/main.6e7049be.chunk.js",
+    "main.js.map": "/static/js/main.6e7049be.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8ba5f663.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8ba5f663.js.map",
+    "static/js/2.98923866.chunk.js": "/static/js/2.98923866.chunk.js",
+    "static/js/2.98923866.chunk.js.map": "/static/js/2.98923866.chunk.js.map",
+    "static/js/3.9411b62d.chunk.js": "/static/js/3.9411b62d.chunk.js",
+    "static/js/3.9411b62d.chunk.js.map": "/static/js/3.9411b62d.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.fe64d00e.chunk.css.map": "/static/css/main.fe64d00e.chunk.css.map",
-    "static/js/2.37205501.chunk.js.LICENSE.txt": "/static/js/2.37205501.chunk.js.LICENSE.txt",
+    "static/css/main.12b22f04.chunk.css.map": "/static/css/main.12b22f04.chunk.css.map",
+    "static/js/2.98923866.chunk.js.LICENSE.txt": "/static/js/2.98923866.chunk.js.LICENSE.txt",
     "static/media/SidhantPuntambekarResumeSpring23.49bd2003.pdf": "/static/media/SidhantPuntambekarResumeSpring23.49bd2003.pdf",
     "static/media/anschutz.png": "/static/media/anschutz.e28c06ac.png",
     "static/media/styles.css": "/static/media/yosemite.91629375.jpg",
@@ -26,6 +26,7 @@
     "static/media/fairview.png": "/static/media/fairview.26e565da.png",
     "static/media/favicon.png": "/static/media/favicon.9c8faee1.png",
     "static/media/genMutation.png": "/static/media/genMutation.3dd002ca.png",
+    "static/media/hackcu.svg": "/static/media/hackcu.34ee2fac.svg",
     "static/media/hackcuhub.png": "/static/media/hackcuhub.bbfdefef.png",
     "static/media/hallstatt.jpg": "/static/media/hallstatt.4a67a9f2.jpg",
     "static/media/harvardmed.png": "/static/media/harvardmed.2b8b3f1b.png",
@@ -53,9 +54,9 @@
     "static/media/warrior2.jpg": "/static/media/warrior2.7d2a45ef.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8b0c50d5.js",
-    "static/js/2.37205501.chunk.js",
-    "static/css/main.fe64d00e.chunk.css",
-    "static/js/main.e20455d1.chunk.js"
+    "static/js/runtime-main.8ba5f663.js",
+    "static/js/2.98923866.chunk.js",
+    "static/css/main.12b22f04.chunk.css",
+    "static/js/main.6e7049be.chunk.js"
   ]
 }
