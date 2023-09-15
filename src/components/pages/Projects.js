@@ -146,7 +146,7 @@ export default function BasicCard() {
                       Sorry! Board Game
                     </Typography>
                     <Typography style={{color:"white"}} variant="body2" color="text.secondary">
-                      A recreation of board game Sorry! built with Java and JavaFX framework. Leverages object oriented 
+                      A recreation of the board game Sorry! built with Java and JavaFX framework. Leverages object oriented 
                       design patterns such as Factory, Model-View-Controller, Command, and Observer. 
                     </Typography>
                   </CardContent>

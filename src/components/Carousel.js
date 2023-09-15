@@ -24,7 +24,8 @@ const Carousel = () => {
     <div className="container">
       <div style={style}>
         <h2>Photos</h2>
-        <h3>Thanks for stopping by my website! Enjoy some of the photos I have taken on my travels.</h3>
+        <h3>Thanks for stopping by!</h3>
+        <h3>Enjoy some of the photos I have taken on my travels!</h3>
         <section class="gallery">
           <div class="radio-buttons gallery__item">
             <input type="radio" id="img-1" name="gallery" class="gallery__selector" defaultChecked/>

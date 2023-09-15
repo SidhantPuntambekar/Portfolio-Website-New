@@ -25,7 +25,7 @@
   "experiences": [
     {
       "organization": "Bionano Genomics",
-      "role": "Bioinformatics Analyst",
+      "role": "Bioinformatics Analyst · San Diego, California",
       "bullets": [
         "• Developing pipelines, algorithms, and validations informatically in Python for the detection of copy number variation events in cytogenetics data from optical genome mapping (OGM) and next generation sequencing (NGS) methods.",
         "• Collaborating with cross-functional teams to interpret genomic data and provide insights into structural variant analysis for internal research projects and product releases.",
@@ -38,7 +38,7 @@
 
     {
       "organization": "Exact Sciences",
-      "role": "Computational Biology, Data Science Intern",
+      "role": "Computational Biology, Data Science Intern · Boston, Massachusetts",
       "bullets": [
         "• Conducted statistical analysis in Python, R, and Scala for accuracy improvements of short mutational variant biomarker signal in CancerSEEK, a liquid biopsy diagnostic test for the early detection of stage I and II cancers.",
         "• Analyzed the effects of unique molecular identifier (UMI) contamination on 40 genomic primer targets in the SafeR-SeqS duplex sequencing assay to improve sensitivity and specificity of a rare variant machine learning based logistic regression classifier.",
@@ -52,7 +52,7 @@
 
     {
       "organization": "Harvard Medical School",
-      "role": "Biomedical Informatics Research Intern",
+      "role": "Biomedical Informatics Research Intern · Boston, Massachusetts",
       "bullets": [
         "• Worked as a Summer Institute in Biomedical Informatics Research Intern at Harvard Medical School's Department of Biomedical Informatics (DBMI) and Brigham and Women's hospital in the computational genomics lab of Dr. Shamil Sunyaev.",
         "• Analyzed the Broad Institute's Genome Aggregation Database (gnomAD) dataset to better quantify and understand the mutational constraint on missense and loss of function genomic variants using a fine-scale mutational map.",
@@ -66,20 +66,20 @@
 
     {
       "organization": "HackCU",
-      "role": "Tech Team Director",
+      "role": "Tech Team Director · Boulder, Colorado",
       "bullets": [
         "• Developed the new HackCU hub website (hackcu.org) utilizing full stack development tools, continuous integration (CI/CD), and end to end testing as part of the technology/software development team.",
-        "• Worked with software development team to create the HackCU 8 Spring 2022 Hackathon website (https://hackcu.org/hackcu8/).",
+        "• Worked with software development team to create the HackCU 007, HackCU 8, and HackCU 9 hackathon websites.",
         "• Migrating HackCU website over to Next.js framework to integrate backend, database, and content management system calls.",
         "• Hosted workshops during hackathons on single cell RNA sequencing analysis bioinformatics and recruited new contributors to HackCU software development team."
       ],
-      "imgFileName": "black.png",
+      "imgFileName": "hackcu.svg",
       "imgSize": "110px"
     },
 
     {
       "organization": "RNA Bioscience Initiative, University of Colorado Anschutz Medical School",
-      "role": "Bioinformatics Research Intern",
+      "role": "Bioinformatics Research Intern · Denver, Colorado",
       "bullets": [
         "• Worked in the RNA Bioscience Initiative Bioinformatics Fellows Group under the mentorship of Dr. Jay Hesselberth, Dr. Kent Riemondy, and Dr. Rui Fu.",
         "• Authored (primary authorship) research paper published in Public Library Of Sciences Biology journal (May, 2021) regarding problem of single cell RNA-sequencing metadata submission in gene expression databases (NCBI GEO). Paper published in PLOS Biology Journal: https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001077",
@@ -94,7 +94,7 @@
 
     {
       "organization": "University of Colorado Boulder Department of Computer Science",
-      "role": "Learning Assistant - CSCI 1300",
+      "role": "Learning Assistant - CSCI 1300 · Boulder, Colorado",
       "bullets": [
         "• Guided students in learning course material for CSCI 1300: Starting Computing by holding weekly office hours, managing recitation periods, and crafting lesson plans.",
         "• Answered C++ programming questions on topics such as pointers, data structures, and recursion in recitation period as well as on Piazza online forum.",
@@ -106,12 +106,12 @@
 
     {
       "organization": "The National Center for Atmospheric Research (NCAR)",
-      "role": "Research Intern",
+      "role": "Research Intern · Boulder, Colorado",
       "bullets": [
-        "• Conducted research into the wind field size of US landfalling tropical cyclones on forecasted land falling location.",
-        "• Worked with Unix shell, Perl, and MATLAB for statistical analysis and visualization of data from HURDAT2 Extended Best Track Hurricane data set from the National Hurricane Center.",
-        "• Presented a research poster of my hurricane analysis to scientific fellows, research staff, and fellow interns at NCAR.",
-        "• Selected by NCAR and accepted to present research at 99th American Meteorological Society conference in January 2019."
+        "•  Conducted research into the wind field size of US landfalling tropical cyclones on forecasted land falling location.",
+        "•  Worked with Unix shell, Perl, and MATLAB for statistical analysis and visualization of data from HURDAT2 Extended Best Track Hurricane data set from the National Hurricane Center.",
+        "•  Presented a research poster of hurricane analysis to scientific fellows, research staff, and fellow interns at NCAR.",
+        "•  Selected by NCAR and accepted to present research at 99th American Meteorological Society conference in January 2019."
       ],
       "imgFileName": "ncar-modified.png",
       "imgSize": "110px"
