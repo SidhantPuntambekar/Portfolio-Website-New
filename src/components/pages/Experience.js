@@ -11,7 +11,7 @@ const Experiences = () => {
   };
   
   const headerStyle = {
-    padding: "2%"
+    padding: "5%"
   }
 
   return (

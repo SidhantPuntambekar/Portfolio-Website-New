@@ -14,6 +14,10 @@ import { Paper }  from '@mui/material';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { orange } from '@mui/material/colors';
 
+import {
+  FaGithub,
+  FaLink,
+} from "react-icons/fa"
 
 const projects = data.projects;
 
@@ -32,6 +36,7 @@ const outerTheme = createTheme({
   },
 });
 
+const iconStyle = { color: "white", fontSize: "1.5em" }
 
 export default function BasicCard() {
   return (
@@ -40,7 +45,7 @@ export default function BasicCard() {
         <h2>Projects</h2>  
       </div>
       <Grid container spacing={5}>
-        <Grid item xs={12} sm={6} md={4}>
+        <Grid item sm={12} md={6}>
           <ThemeProvider theme={outerTheme}>
             <Card style={{backgroundColor: "#4E342E"}} sx= {{':hover': { boxShadow: 20,},}} elevation={12}>
                 <CardMedia
@@ -57,13 +62,13 @@ export default function BasicCard() {
                   </Typography>
                 </CardContent>
                 <CardActions>
-                  <Button size="small" href="https://github.com/rnabioco/clustifyr-web-app" target="_blank">Code</Button>
-                  <Button size="small" href="https://raysinensis.shinyapps.io/clustifyr-web-app/" target="_blank">Link</Button>
+                  <Button size="small" href="https://github.com/rnabioco/clustifyr-web-app" target="_blank"><FaGithub style={iconStyle}/></Button>
+                  <Button size="small" href="https://raysinensis.shinyapps.io/clustifyr-web-app/" target="_blank"><FaLink style={iconStyle}/></Button>
                 </CardActions>
             </Card>
             </ThemeProvider>
             </Grid>
-            <Grid item xs={12} sm={6} md={4}>
+            <Grid item sm={12} md={6}>
               <ThemeProvider theme={outerTheme}>
                 <Card style={{backgroundColor: "#4E342E"}} sx= {{':hover': { boxShadow: 20,},}} elevation={12}>
                   <CardMedia
@@ -81,12 +86,12 @@ export default function BasicCard() {
                     </Typography>
                   </CardContent>
                   <CardActions>
-                    <Button size="small" href="https://hackcu.org/" target="_blank">Link</Button>
+                    <Button size="small" href="https://hackcu.org/" target="_blank"><FaLink style={iconStyle}/></Button>
                   </CardActions>
                 </Card>
               </ThemeProvider>
           </Grid>
-          <Grid item xs={12} sm={6} md={4}>
+          <Grid item sm={12} md={6}>
               <ThemeProvider theme={outerTheme}>
                 <Card style={{backgroundColor: "#4E342E"}} sx= {{':hover': { boxShadow: 20}}} elevation={12}>
                   <CardMedia
@@ -103,13 +108,13 @@ export default function BasicCard() {
                     </Typography>
                   </CardContent>
                   <CardActions>
-                    <Button size="small" href="https://github.com/SidhantPuntambekar/team-cyberhood-1" target="_blank">Code</Button>
-                    <Button size="small" href="https://devpost.com/software/cyberhood-6xg3us" target="_blank">Link</Button>
+                    <Button size="small" href="https://github.com/SidhantPuntambekar/team-cyberhood-1" target="_blank"><FaGithub style={iconStyle}/></Button>
+                    <Button size="small" href="https://devpost.com/software/cyberhood-6xg3us" target="_blank"><FaLink style={iconStyle}/></Button>
                   </CardActions>
                 </Card>
               </ThemeProvider>
           </Grid>
-          <Grid item xs={12} sm={6} md={4}>
+          <Grid item sm={12} md={6}>
               <ThemeProvider theme={outerTheme}>
                 <Card style={{backgroundColor: "#4E342E"}} elevation={12} sx= {{':hover': { boxShadow: 20}}}>
                   <CardMedia
@@ -123,27 +128,27 @@ export default function BasicCard() {
                     </Typography>
                     <Typography style={{color:"white"}} variant="body2" color="text.secondary">
                     Cell-type annotations are frequently excluded from single cell datasets.
-                    To better describe the issue, Someta monitors GEO entries monthly, and programmatically determines the fraction of entries with usable cell metadata.
+                    Someta monitors NCBI GEO entries monthly, and programmatically determines the fraction of entries with usable cell metadata.
                     </Typography>
                   </CardContent>
                   <CardActions>
-                    <Button size="small" href="https://github.com/rnabioco/someta" target="_blank">Code</Button>
-                    <Button size="small" href="https://rnabioco.github.io/someta/" target="_blank">Link</Button>
+                    <Button size="small" href="https://github.com/rnabioco/someta" target="_blank"><FaGithub style={iconStyle}/></Button>
+                    <Button size="small" href="https://rnabioco.github.io/someta/" target="_blank"><FaLink style={iconStyle}/></Button>
                   </CardActions>
                 </Card>
               </ThemeProvider>
           </Grid>
-          <Grid item xs={12} sm={6} md={4}>
+          <Grid item sm={12} md={6}>
               <ThemeProvider theme={outerTheme}>
                 <Card style={{backgroundColor: "#4E342E"}} elevation={12} sx= {{':hover': { boxShadow: 20}}}>
                   <CardMedia
                     style={{height: 200, paddingTop: '56.25%'}}
                     image={require('../../img/sorry.png').default}
-                    alt="ClustifyR Web Application"
+                    alt="Sorry Board Game"
                   />
                   <CardContent>
                     <Typography style={{color:"white"}} gutterBottom variant="h4" component="div">
-                      Sorry! Board Game
+                      Sorry! Game
                     </Typography>
                     <Typography style={{color:"white"}} variant="body2" color="text.secondary">
                       A recreation of the board game Sorry! built with Java and JavaFX framework. Leverages object oriented 
@@ -151,12 +156,12 @@ export default function BasicCard() {
                     </Typography>
                   </CardContent>
                   <CardActions>
-                    <Button size="small" href="https://github.com/SidhantPuntambekar/Sorry-Game" target="_blank">Code</Button>
+                    <Button size="small" href="https://github.com/SidhantPuntambekar/Sorry-Game" target="_blank"><FaGithub style={iconStyle}/></Button>
                   </CardActions>
                 </Card>
               </ThemeProvider>
           </Grid>
-          <Grid item xs={12} sm={6} md={4}>
+          <Grid item sm={12} md={6}>
               <ThemeProvider theme={outerTheme}>
                 <Card style={{backgroundColor: "#4E342E"}} elevation={12} sx= {{':hover': { boxShadow: 20}}}>
                   <CardMedia
@@ -169,12 +174,12 @@ export default function BasicCard() {
                       genMutation
                     </Typography>
                     <Typography style={{color:"white"}} variant="body2" color="text.secondary">
-                      A project to create a fine-scale mutational map of the human genome using data aggregated from the Broad Institute's Genome Aggregation (gnomAD) database. 
+                      A project to create a fine-scale mutational map of the human genome using data from the Broad Institute's Genome Aggregation (gnomAD) database. 
                       Harvard Medical School SIBMI Program 2021 Project.  
                     </Typography>
                   </CardContent>
                   <CardActions>
-                    <Button size="small" href="https://github.com/SidhantPuntambekar/genMutation" target="_blank">Code</Button>
+                    <Button size="small" href="https://github.com/SidhantPuntambekar/genMutation" target="_blank"><FaGithub style={iconStyle}/></Button>
                   </CardActions>
                 </Card>
               </ThemeProvider>

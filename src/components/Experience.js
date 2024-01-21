@@ -34,7 +34,7 @@ const Experience = ({ experience, currentIndex, length }) => {
 
         {experience.bullets.map((pt, x) => (
           <>
-            <h4>{pt}</h4>
+            <h4 style={{ lineHeight: "1.5" }}>{pt}</h4>
             <br></br>
           </>
         ))}

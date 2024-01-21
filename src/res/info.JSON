@@ -8,7 +8,8 @@
       "imgSize": "110px",
       "location": "Boulder, CO",
       "descriptor1": "Bachelors in Computer Science, Minors in Computational Biology and Molecular, Cellular, and Developmental Biology",
-      "descriptor2": "Organizations: HackCU (Tech Team Director), Robotic Boat Team"
+      "descriptor2": "Awards: Discovery Learning Award (Department of Computer Science), 8x Dean's List Recipient",
+      "descriptor3": "Organizations: HackCU (Tech Team Director), Robotic Boat Team"
     },
     {
       "name": "Fairview High School",
@@ -17,8 +18,9 @@
       "imgFileName": "fairview.png",
       "imgSize": "110px",
       "location": "Boulder, CO",
-      "descriptor1": "International Baccalaureate Program, Advanced Placement Scholar with Distinction",
-      "descriptor2": "Organizations: Politics and Public Policy Club (Founder and President), Stock Market Club, Speech and Debate, National Science Honors Society, National Spanish Honors Society, Youth in Government, Code Club"
+      "descriptor1": "International Baccalaureate Program, Advanced Placement Program",
+      "descriptor2": "Awards: International Baccalaureate Diploma, Advanced Placement Scholar with Distinction, Seal of Biliteracy in English and Spanish",
+      "descriptor3": "Organizations: Politics and Public Policy Club (Founder and President), Stock Market Club, Speech and Debate, National Science Honors Society, National Spanish Honors Society, Youth in Government, Code Club"
     }
   ],
 
@@ -27,10 +29,12 @@
       "organization": "Bionano Genomics",
       "role": "Bioinformatics Analyst · San Diego, California",
       "bullets": [
-        "• Developing pipelines, algorithms, and validations informatically in Python for the detection of copy number variation events in cytogenetics data from optical genome mapping (OGM) and next generation sequencing (NGS) methods.",
-        "• Collaborating with cross-functional teams to interpret genomic data and provide insights into structural variant analysis for internal research projects and product releases.",
-        "• Curating and analyzing a comprehensive control database comprising 550+ optical genome mapping (OGM) samples, ensuring accuracy and quality control for the Bionano Solve software suite.",
-        "• Presented results in team meetings and developed copy number variation detection algorithm performance evaluation posters for conferences (ACMG 2023), fostering knowledge exchange and collaboration within the bioinformatics community."
+        "• Developing pipelines, algorithms, and validations in Python for the detection of copy number and structural variant events in cytogenetics data from optical genome mapping (OGM) and next generation sequencing (NGS) methods.",
+        "• Spearheading continuous integration testing and automated unit testing development efforts for Bionano Solve codebases including de novo assembly, guided constitutional assembly, guided low allele fraction assembly, rare variant analysis, and FSHD analysis.",
+        "• Modernizing the continuous integration/continuous deployment process of Bionano Solve and Access candidate builds through Jenkins and Ansible to AWS S3 buckets for SQA testing and eventual release.",
+        "• Curating structural variant relational control databases in Perl, Bash, and Python comprising 450+ OGM clinical samples for use across the Bionano Solve 3.8 and 3.8.1, Access 1.8, and VIA 7.0 software suites.",
+        "• Streamlined complex, multi-step internal workflows such as generating Bionano Solve structural variant performance metrics as well as generating control database resources for variant annotation into concise, fully unit tested Python modules and Bash scripts.",
+        "• Presented analysis project results in team meetings and developed algorithm performance evaluation posters for conferences (ACMG 2023), fostering knowledge exchange and collaboration within the larger bioinformatics community."
       ],
       "imgFileName": "bionano.png",
       "imgSize": "150px"
@@ -44,7 +48,7 @@
         "• Analyzed the effects of unique molecular identifier (UMI) contamination on 40 genomic primer targets in the SafeR-SeqS duplex sequencing assay to improve sensitivity and specificity of a rare variant machine learning based logistic regression classifier.",
         "• Worked with UMI-tools open source Python package to calculate edit distances between UMIs in the same primer target and pairwise UMI ligation end position distances to differentiate between bona-fide mutations and cases of library prep/sequencing errors such as PCR recombination.",
         "• Leveraged Apache Spark SQL, Microsoft Azure Blob Storage, and Azure Databricks to detect UMI contamination occurrences from over 430,000+ next generation sequencing reads.",
-        "• Presented short variants contamination findings to computational biology/ML group colleagues and key stakeholders in the Multi-Cancer Early Detection team."
+        "• Presented short variants contamination findings to computational biology/machine learning group colleagues and key stakeholders within the Multi-Cancer Early Detection team."
       ],
       "imgFileName": "exact2.png",
       "imgSize": "110px"
@@ -70,8 +74,8 @@
       "bullets": [
         "• Developed the new HackCU hub website (hackcu.org) utilizing full stack development tools, continuous integration (CI/CD), and end to end testing as part of the technology/software development team.",
         "• Worked with software development team to create the HackCU 007, HackCU 8, and HackCU 9 hackathon websites.",
-        "• Migrating HackCU website over to Next.js framework to integrate backend, database, and content management system calls.",
-        "• Hosted workshops during hackathons on single cell RNA sequencing analysis bioinformatics and recruited new contributors to HackCU software development team."
+        "• Hosted workshops during hackathons on single cell RNA sequencing analysis using bioinformatics approaches and recruited new contributors to HackCU software development team.",
+        "• Managed hackathon finances, sponsors, judging and logistics during HackCU 9."
       ],
       "imgFileName": "hackcu.svg",
       "imgSize": "110px"
@@ -94,9 +98,9 @@
 
     {
       "organization": "University of Colorado Boulder Department of Computer Science",
-      "role": "Learning Assistant - CSCI 1300 · Boulder, Colorado",
+      "role": "Learning Assistant: Introduction to Programming with C++ · Boulder, Colorado",
       "bullets": [
-        "• Guided students in learning course material for CSCI 1300: Starting Computing by holding weekly office hours, managing recitation periods, and crafting lesson plans.",
+        "• Guided students in learning course material for CSCI 1300: Introduction to Programming with C++ by holding weekly office hours, managing recitation periods, and crafting lesson plans.",
         "• Answered C++ programming questions on topics such as pointers, data structures, and recursion in recitation period as well as on Piazza online forum.",
         "• Met with CSCI 1300 instructional faculty to design course assignments, projects, and examinations as well as anticipate student difficulties."
       ],

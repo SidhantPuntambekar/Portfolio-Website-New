@@ -29,8 +29,9 @@ const Blog = () => {
     return (
         <div className = "container" style={style}>
             <h2>Blogs</h2> 
-            <h3>Welcome to the blog section of my website</h3>
-            <h3>Click the buttons if you are interested in my blogs on World War II or Chess</h3>
+            <h4>Welcome to the blog section of my website</h4>
+            <h4>Click the buttons if you are interested in my blogs on World War II or Chess.</h4>
+            <h4>I don't update these as frequently as I would like, but eventually, I will migrate these to separate pages on this website.</h4>
             <a href="https://sidhantpuntambekar.surge.sh/History" without rel="noopener noreferrer" target="_blank">
             <button
                 trailingIcon="picture_as_pdf"
