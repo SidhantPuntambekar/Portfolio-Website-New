@@ -1,17 +1,25 @@
 import React, { useState, useEffect } from "react";
 import "./styles.css";
+
 import badlands from '../img/badlands.jpg'
 import roxborough from '../img/roxborough.JPG'
 import lajolla from '../img/lajolla.JPG'
 import yosemite from '../img/yosemite.jpg'
+
 import deathvalley from '../img/deathvalley.jpg'
 import cabo from '../img/cabo.JPG'
 import maui from '../img/maui.jpg'
 import marienplatz from '../img/marienplatz.jpg'
+
 import neuschwanstein from '../img/neuschwanstein.jpg'
 import hallstatt from '../img/hallstatt.jpg'
 import salzburg from '../img/salzburg.jpg'
 import olympiastadion from '../img/olympiastadion.jpg'
+
+import coronado from '../img/coronado.jpeg'
+import delmorro from '../img/elmorro.jpeg'
+import oldsouthchurch from '../img/oldsouthchurch.jpeg'
+import boston from '../img/boston.jpeg'
 
 const Carousel = () => {
   const style = {
@@ -86,6 +94,26 @@ const Carousel = () => {
             <input type="radio" id="img-12" name="gallery" class="gallery__selector"/>
             <img class="gallery__img" src={salzburg} alt="Salzburg"/>
             <label for="img-12" class="gallery__thumb"><img src={salzburg} alt="Salzburg"/></label>
+          </div>
+          <div class="radio-buttons gallery__item">
+            <input type="radio" id="img-13" name="gallery" class="gallery__selector"/>
+            <img class="gallery__img" src={coronado} alt="Coronado Hotel"/>
+            <label for="img-13" class="gallery__thumb"><img src={coronado} alt="Coronado Hotel"/></label>
+          </div>
+          <div class="radio-buttons gallery__item">
+            <input type="radio" id="img-14" name="gallery" class="gallery__selector"/>
+            <img class="gallery__img" src={delmorro} alt="Castillo San Felipe Del Morro"/>
+            <label for="img-14" class="gallery__thumb"><img src={delmorro} alt="Castillo San Felipe Del Morro"/></label>
+          </div>
+          <div class="radio-buttons gallery__item">
+            <input type="radio" id="img-15" name="gallery" class="gallery__selector"/>
+            <img class="gallery__img" src={oldsouthchurch} alt="Old South Church, Copley"/>
+            <label for="img-15" class="gallery__thumb"><img src={oldsouthchurch} alt="Old South Church,Copley"/></label>
+          </div>
+          <div class="radio-buttons gallery__item">
+            <input type="radio" id="img-16" name="gallery" class="gallery__selector"/>
+            <img class="gallery__img" src={boston} alt="Boston"/>
+            <label for="img-16" class="gallery__thumb"><img src={boston} alt="Boston"/></label>
           </div>
         </section>
       </div>

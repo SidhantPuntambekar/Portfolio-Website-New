@@ -26,6 +26,28 @@
 
   "experiences": [
     {
+      "organization": "Boston Children's Hospital",
+      "role": "Bioinformatician · Boston, Massachusetts",
+      "bullets": [
+        "• Maintain computational pipeline for eQTL discovery in immune cells from steroid sensitive nephrotic syndrome patients leveraging bulk RNA-seq, WGS, PCA, and bayesian prior analysis for eGene fine mapping.",
+        "• Develop high-level software design and code for the Biobank to Illuminate the Genomics of Kidney Diseases (BIGKiDs) study at the Sampson Lab for Kidney Genomics through an interactive R Shiny web application.",
+        "• Mentor pediatric nephrology medical research fellows in creating code implementations for nephrotic syndrome research projects adhering to software development best practices as well as rigorous unit and regression testing."
+      ],
+      "imgFileName": "bch.png",
+      "imgSize": "120px"
+    },
+
+    {
+      "organization": "Broad Institute of MIT and Harvard",
+      "role": "Affiliated Researcher, Kidney Disease Initiative · Boston, Massachusetts",
+      "bullets": [
+        "• Collaborate with kidney disease initiative researchers at the Broad Institute in weekly lab meetings by sharing analysis results and brainstorming ideas for future collaborative projects."
+      ],
+      "imgFileName": "broad.png",
+      "imgSize": "110px"
+    },
+
+    {
       "organization": "Bionano Genomics",
       "role": "Bioinformatics Analyst · San Diego, California",
       "bullets": [
