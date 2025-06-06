@@ -61,6 +61,40 @@
     background-size: cover;
 }
 
+.carousel-container {
+  text-align: center;
+  padding: 20px;
+  color: #fff; /* make all text white */
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.carousel-image {
+  max-width: 90%;
+  max-height: 80vh;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.8);
+  margin: 0 30px;
+  object-fit: contain;
+  transition: opacity 0.5s ease;
+}
+
+.nav-button {
+  background-color: transparent;
+  border: none;
+  font-size: 3rem;
+  cursor: pointer;
+  color: #fff; /* arrows white */
+  transition: color 0.3s ease;
+}
+
+
 * {
   box-sizing: border-box;
 }

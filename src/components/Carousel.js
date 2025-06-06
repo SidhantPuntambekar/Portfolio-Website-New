@@ -21,104 +21,83 @@ import delmorro from '../img/elmorro.jpeg'
 import oldsouthchurch from '../img/oldsouthchurch.jpeg'
 import boston from '../img/boston.jpeg'
 
+import pabe_ghat from '../img/pabe_ghat.png'
+import la_jolla_cove from '../img/la_jolla_cove.png'
+import daytona from '../img/daytona.png'
+import georgetown from '../img/georgetown.png'
+import washington_monument from '../img/washington_monument.png'
+import acorn_street from '../img/acorn_street.png'
+
+const images = [
+  { src: badlands, alt: "Badlands National Park, South Dakota, USA" },
+  { src: roxborough, alt: "Roxborough State Park, Colorado, USA" },
+  { src: lajolla, alt: "La Jolla, California, USA" },
+  { src: yosemite, alt: "Yosemite National Park, California, USA" },
+  { src: deathvalley, alt: "Death Valley National Park, California, USA" },
+  { src: cabo, alt: "Cabo San Lucas, Baja California Sur, Mexico" },
+  { src: maui, alt: "Makena Beach, Maui, Hawaii, USA" },
+  { src: marienplatz, alt: "Marienplatz, Munich, Germany" },
+  { src: neuschwanstein, alt: "Neuschwanstein Schloss, Schwangau, Germany" },
+  { src: hallstatt, alt: "Hallstatt, Upper Austria, Austra" },
+  { src: olympiastadion, alt: "Olympic Park, Munich, Germany" },
+  { src: salzburg, alt: "Salzburg, Austria" },
+  { src: coronado, alt: "Coronado Hotel, San Diego, California, USA" },
+  { src: delmorro, alt: "Castillo San Felipe Del Morro, San Juan, Puerto Rico, USA" },
+  { src: oldsouthchurch, alt: "Old South Church, Boston, Massachusetts, USA" },
+  { src: boston, alt: "Old State House, Boston, Massachusetts, USA" },
+  { src: pabe_ghat, alt: "Pabe Ghat, Maharashtra, India" },
+  { src: la_jolla_cove, alt: "La Jolla Cove, San Diego, California, USA" },
+  { src: daytona, alt: "Daytona International Speedway, Daytona, Florida, USA" },
+  { src: georgetown, alt: "Healey Hall, Georgetown University, Washington DC, USA" },
+  { src: washington_monument, alt: "Washington Monument, Washington DC, USA"},
+  { src: acorn_street, alt: "Acorn Street, Beacon Hill, Boston, Massachusetts, USA" }
+];
+
 const Carousel = () => {
-  const style = {
-    alignItems: "center",
-    textAlign: "center",
-    position: "relative"
+  // Random starting index
+  const randomIndex = Math.floor(Math.random() * images.length);
+  const [currentIndex, setCurrentIndex] = useState(randomIndex);
+
+  const goToPrevious = () => {
+    const isFirst = currentIndex === 0;
+    setCurrentIndex(isFirst ? images.length - 1 : currentIndex - 1);
   };
 
+  const goToNext = () => {
+    const isLast = currentIndex === images.length - 1;
+    setCurrentIndex(isLast ? 0 : currentIndex + 1);
+  };
+
+  // Auto-advance every 5 seconds
+  useEffect(() => {
+    const timer = setInterval(() => {
+      goToNext();
+    }, 7500); // 7500ms = 7.5 seconds
+
+    return () => clearInterval(timer); // Clean up interval on unmount
+  }, [currentIndex]);
+
   return (
-    <div className="container">
-      <div style={style}>
-        <h2>Photos</h2>
-        <h3>Thanks for stopping by!</h3>
-        <h3>Enjoy some of the photos I have taken on my travels!</h3>
-        <section class="gallery">
-          <div class="radio-buttons gallery__item">
-            <input type="radio" id="img-1" name="gallery" class="gallery__selector" defaultChecked/>
-            <img class="gallery__img" src={badlands} alt="Badlands"/>
-            <label for="img-1" class="gallery__thumb"><img src={badlands} alt="Badlands"/></label>
-          </div>
-          <div class="radio-buttons gallery__item">
-            <input type="radio" id="img-2" name="gallery" class="gallery__selector"/>
-            <img class="gallery__img" src={roxborough} alt="Joshua Tree"/>
-            <label for="img-2" class="gallery__thumb"><img src={roxborough} alt="Roxborough"/></label>
-          </div>
-          <div class="radio-buttons gallery__item">
-            <input type="radio" id="img-3" name="gallery" class="gallery__selector"/>
-            <img class="gallery__img" src={lajolla} alt="La Jolla"/>
-            <label for="img-3" class="gallery__thumb"><img src={lajolla} alt="La Jolla"/></label>
-          </div>
-          <div class="radio-buttons gallery__item">
-            <input type="radio" id="img-4" name="gallery" class="gallery__selector"/>
-            <img class="gallery__img" src={yosemite} alt="Yosemite"/>
-            <label for="img-4" class="gallery__thumb"><img src={yosemite} alt="Yosemite"/></label>
-          </div>
-          <div class="radio-buttons gallery__item">
-            <input type="radio" id="img-5" name="gallery" class="gallery__selector"/>
-            <img class="gallery__img" src={deathvalley} alt="Death Valley"/>
-            <label for="img-5" class="gallery__thumb"><img src={deathvalley} alt="Death Valley"/></label>
-          </div>
-          <div class="radio-buttons gallery__item">
-            <input type="radio" id="img-6" name="gallery" class="gallery__selector"/>
-            <img class="gallery__img" src={cabo} alt="Cabo San Lucas"/>
-            <label for="img-6" class="gallery__thumb"><img src={cabo} alt="Cabo San Lucas"/></label>
-          </div>
-          <div class="radio-buttons gallery__item">
-            <input type="radio" id="img-7" name="gallery" class="gallery__selector"/>
-            <img class="gallery__img" src={maui} alt="Makena Beach, Maui"/>
-            <label for="img-7" class="gallery__thumb"><img src={maui} alt="Makena Beach, Maui"/></label>
-          </div>
-          <div class="radio-buttons gallery__item">
-            <input type="radio" id="img-8" name="gallery" class="gallery__selector"/>
-            <img class="gallery__img" src={marienplatz} alt="Marienplatz, Munich"/>
-            <label for="img-8" class="gallery__thumb"><img src={marienplatz} alt="Marienplatz, Munich"/></label>
-          </div>
-          <div class="radio-buttons gallery__item">
-            <input type="radio" id="img-9" name="gallery" class="gallery__selector"/>
-            <img class="gallery__img" src={neuschwanstein} alt="Neuschwanstein Schloss"/>
-            <label for="img-9" class="gallery__thumb"><img src={neuschwanstein} alt="Neuschwanstein Schloss"/></label>
-          </div>
-          <div class="radio-buttons gallery__item">
-            <input type="radio" id="img-10" name="gallery" class="gallery__selector"/>
-            <img class="gallery__img" src={hallstatt} alt="Hallstatt"/>
-            <label for="img-10" class="gallery__thumb"><img src={hallstatt} alt="Hallstat"/></label>
-          </div>
-          <div class="radio-buttons gallery__item">
-            <input type="radio" id="img-11" name="gallery" class="gallery__selector"/>
-            <img class="gallery__img" src={olympiastadion} alt="Olympic Park, Munich"/>
-            <label for="img-11" class="gallery__thumb"><img src={olympiastadion} alt="Olympic Park, Munich"/></label>
-          </div>
-          <div class="radio-buttons gallery__item">
-            <input type="radio" id="img-12" name="gallery" class="gallery__selector"/>
-            <img class="gallery__img" src={salzburg} alt="Salzburg"/>
-            <label for="img-12" class="gallery__thumb"><img src={salzburg} alt="Salzburg"/></label>
-          </div>
-          <div class="radio-buttons gallery__item">
-            <input type="radio" id="img-13" name="gallery" class="gallery__selector"/>
-            <img class="gallery__img" src={coronado} alt="Coronado Hotel"/>
-            <label for="img-13" class="gallery__thumb"><img src={coronado} alt="Coronado Hotel"/></label>
-          </div>
-          <div class="radio-buttons gallery__item">
-            <input type="radio" id="img-14" name="gallery" class="gallery__selector"/>
-            <img class="gallery__img" src={delmorro} alt="Castillo San Felipe Del Morro"/>
-            <label for="img-14" class="gallery__thumb"><img src={delmorro} alt="Castillo San Felipe Del Morro"/></label>
-          </div>
-          <div class="radio-buttons gallery__item">
-            <input type="radio" id="img-15" name="gallery" class="gallery__selector"/>
-            <img class="gallery__img" src={oldsouthchurch} alt="Old South Church, Copley"/>
-            <label for="img-15" class="gallery__thumb"><img src={oldsouthchurch} alt="Old South Church,Copley"/></label>
-          </div>
-          <div class="radio-buttons gallery__item">
-            <input type="radio" id="img-16" name="gallery" class="gallery__selector"/>
-            <img class="gallery__img" src={boston} alt="Boston"/>
-            <label for="img-16" class="gallery__thumb"><img src={boston} alt="Boston"/></label>
-          </div>
-        </section>
+    <div className="carousel-container">
+      <h2>Photos</h2>
+      <h3>Thanks for stopping by!</h3>
+      <h3>Enjoy some of the photos I have taken on my travels!</h3>
+
+      <div className="carousel">
+        <button onClick={goToPrevious} className="nav-button">❮</button>
+
+        <img 
+          src={images[currentIndex].src} 
+          alt={images[currentIndex].alt} 
+          className="carousel-image" 
+        />
+
+        <button onClick={goToNext} className="nav-button">❯</button>
       </div>
+
+      <p>{images[currentIndex].alt}</p>
     </div>
   );
 }
 
-export default Carousel
+export default Carousel;

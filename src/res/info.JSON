@@ -5,22 +5,24 @@
       "shortName": "CU Boulder",
       "years": "2019 - 2023",
       "imgFileName": "cu.png",
-      "imgSize": "110px",
+      "imgSize": "120px",
       "location": "Boulder, CO",
       "descriptor1": "Bachelors in Computer Science, Minors in Computational Biology and Molecular, Cellular, and Developmental Biology",
       "descriptor2": "Awards: Discovery Learning Award (Department of Computer Science), 8x Dean's List Recipient",
-      "descriptor3": "Organizations: HackCU (Tech Team Director), Robotic Boat Team"
+      "descriptor3": "Organizations: HackCU (Tech Team Director), Robotic Boat Team",
+      "website": "https://www.colorado.edu/"
     },
     {
       "name": "Fairview High School",
       "shortName": "Fairview",
       "years": "2015 - 2019",
       "imgFileName": "fairview.png",
-      "imgSize": "110px",
+      "imgSize": "120px",
       "location": "Boulder, CO",
       "descriptor1": "International Baccalaureate Program, Advanced Placement Program",
       "descriptor2": "Awards: International Baccalaureate Diploma, Advanced Placement Scholar with Distinction, Seal of Biliteracy in English and Spanish",
-      "descriptor3": "Organizations: Politics and Public Policy Club (Founder and President), Stock Market Club, Speech and Debate, National Science Honors Society, National Spanish Honors Society, Youth in Government, Code Club"
+      "descriptor3": "Organizations: Politics and Public Policy Club (Founder and President), Stock Market Club, Speech and Debate, National Science Honors Society, National Spanish Honors Society, Youth in Government, Code Club",
+      "website": "https://fah.bvsd.org/"
     }
   ],
 
@@ -34,7 +36,8 @@
         "• Mentor pediatric nephrology medical research fellows in creating code implementations for nephrotic syndrome research projects adhering to software development best practices as well as rigorous unit and regression testing."
       ],
       "imgFileName": "bch.png",
-      "imgSize": "120px"
+      "imgSize": "120px",
+      "website": "https://www.childrenshospital.org/"
     },
 
     {
@@ -44,7 +47,8 @@
         "• Collaborate with kidney disease initiative researchers at the Broad Institute in weekly lab meetings by sharing analysis results and brainstorming ideas for future collaborative projects."
       ],
       "imgFileName": "broad.png",
-      "imgSize": "110px"
+      "imgSize": "120px",
+      "website": "https://www.broadinstitute.org/"
     },
 
     {
@@ -59,7 +63,8 @@
         "• Presented analysis project results in team meetings and developed algorithm performance evaluation posters for conferences (ACMG 2023), fostering knowledge exchange and collaboration within the larger bioinformatics community."
       ],
       "imgFileName": "bionano.png",
-      "imgSize": "150px"
+      "imgSize": "200px",
+      "website": "https://bionano.com/"
     },
 
     {
@@ -73,7 +78,8 @@
         "• Presented short variants contamination findings to computational biology/machine learning group colleagues and key stakeholders within the Multi-Cancer Early Detection team."
       ],
       "imgFileName": "exact2.png",
-      "imgSize": "110px"
+      "imgSize": "120px",
+      "website": "https://www.exactsciences.com/"
     },
 
     {
@@ -87,7 +93,8 @@
         "• Presented research findings in scientific presentation format to fellow interns and Harvard Medical School DBMI Faculty."
       ],
       "imgFileName": "harvardmed.png",
-      "imgSize": "110px"
+      "imgSize": "120px",
+      "website": "https://hms.harvard.edu/"
     },
 
     {
@@ -99,8 +106,9 @@
         "• Hosted workshops during hackathons on single cell RNA sequencing analysis using bioinformatics approaches and recruited new contributors to HackCU software development team.",
         "• Managed hackathon finances, sponsors, judging and logistics during HackCU 9."
       ],
-      "imgFileName": "hackcu.svg",
-      "imgSize": "110px"
+      "imgFileName": "hackcu.png",
+      "imgSize": "120px",
+      "website": "https://hackcu.org/"
     },
 
     {
@@ -115,7 +123,8 @@
         "• Presented research and associated paper at virtual Keystone Symposia Single Cell Biology EK:26 poster session."
       ],
       "imgFileName": "rbi.png",
-      "imgSize": "120px"
+      "imgSize": "120px",
+      "website": "https://medschool.cuanschutz.edu/rbi"
     },
 
     {
@@ -127,7 +136,8 @@
         "• Met with CSCI 1300 instructional faculty to design course assignments, projects, and examinations as well as anticipate student difficulties."
       ],
       "imgFileName": "cu.png",
-      "imgSize": "110px"
+      "imgSize": "120px",
+      "website": "https://www.colorado.edu/" 
     },
 
     {
@@ -140,7 +150,8 @@
         "•  Selected by NCAR and accepted to present research at 99th American Meteorological Society conference in January 2019."
       ],
       "imgFileName": "ncar-modified.png",
-      "imgSize": "110px"
+      "imgSize": "120px",
+      "website": "https://ncar.ucar.edu/"
     }
   ],
 

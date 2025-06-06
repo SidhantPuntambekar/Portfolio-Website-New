@@ -6,8 +6,7 @@ const Experiences = () => {
   const experience = data.experiences;
   const style = {
     alignItems: "center",
-    textAlign: "center",
-    position: "relative",
+    textAlign: "center"
   };
   
   const headerStyle = {
