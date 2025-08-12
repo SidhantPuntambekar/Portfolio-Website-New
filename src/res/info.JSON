@@ -43,7 +43,7 @@
       "years": "June 2024 - Present",
       "bullets": [
         "• Maintain computational pipeline for eQTL discovery in immune cells from steroid sensitive nephrotic syndrome patients leveraging bulk RNA-seq, WGS, PCA, and bayesian prior analysis for eGene fine mapping.",
-        "• Develop high-level software design and code for the Biobank to Illuminate the Genomics of Kidney Diseases (BIGKiDs) study at the Sampson Lab for Kidney Genomics through an interactive R Shiny web application.",
+        "• Develop high-level software design and code for the Biobank to Illuminate the Genomics of Kidney Diseases (BIGKiDs) study through an interactive R Shiny web application.",
         "• Mentor pediatric nephrology medical research fellows in creating code implementations for nephrotic syndrome research projects adhering to software development best practices as well as rigorous unit and regression testing."
       ],
       "imgFileName": "bch.png",
