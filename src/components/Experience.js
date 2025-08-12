@@ -40,6 +40,7 @@ const Experience = ({ experience }) => {
       <div style={leftColumn}>
         <h1 style={{ margin: 0 }}>{experience.organization}</h1>
         <h3 style={{ marginTop: "10px" }}>{experience.role}</h3>
+        <h4 style={{ marginTop: "10px" }}>{experience.years}</h4>
 
         {experience.bullets.map((pt, i) => (
           <h4 key={i} style={{ lineHeight: "1.5", marginTop: "10px" }}>

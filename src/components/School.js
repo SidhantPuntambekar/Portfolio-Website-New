@@ -40,6 +40,7 @@ const School = ({ school }) => {
       <div style={leftStyle}>
         <h1>{school.name}</h1>
         <h3>{school.descriptor1}</h3>
+        <h4>{school.years}</h4>
         <p>{school.descriptor2}</p>
         <p>{school.descriptor3}</p>
       </div>

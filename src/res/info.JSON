@@ -1,6 +1,16 @@
 {
   "schools": [
     {
+      "name": "Harvard Medical School",
+      "shortName": "Harvard University",
+      "years": "2025 - 2027",
+      "imgFileName": "harvardmed.png",
+      "imgSize": "120px",
+      "location": "Boston, MA",
+      "descriptor1": "Masters of Medical Sciences in Biomedical Informatics", 
+      "website": "https://hms.harvard.edu/"
+    },
+    {
       "name": "University of Colorado Boulder",
       "shortName": "CU Boulder",
       "years": "2019 - 2023",
@@ -30,6 +40,7 @@
     {
       "organization": "Boston Children's Hospital",
       "role": "Bioinformatician · Boston, Massachusetts",
+      "years": "June 2024 - Present",
       "bullets": [
         "• Maintain computational pipeline for eQTL discovery in immune cells from steroid sensitive nephrotic syndrome patients leveraging bulk RNA-seq, WGS, PCA, and bayesian prior analysis for eGene fine mapping.",
         "• Develop high-level software design and code for the Biobank to Illuminate the Genomics of Kidney Diseases (BIGKiDs) study at the Sampson Lab for Kidney Genomics through an interactive R Shiny web application.",
@@ -43,6 +54,7 @@
     {
       "organization": "Broad Institute of MIT and Harvard",
       "role": "Affiliated Researcher, Kidney Disease Initiative · Boston, Massachusetts",
+      "years": "June 2024 - Present",
       "bullets": [
         "• Collaborate with kidney disease initiative researchers at the Broad Institute in weekly lab meetings by sharing analysis results and brainstorming ideas for future collaborative projects."
       ],
@@ -54,6 +66,7 @@
     {
       "organization": "Bionano Genomics",
       "role": "Bioinformatics Analyst · San Diego, California",
+      "years": "January 2023 - May 2024",
       "bullets": [
         "• Developing pipelines, algorithms, and validations in Python for the detection of copy number and structural variant events in cytogenetics data from optical genome mapping (OGM) and next generation sequencing (NGS) methods.",
         "• Spearheading continuous integration testing and automated unit testing development efforts for Bionano Solve codebases including de novo assembly, guided constitutional assembly, guided low allele fraction assembly, rare variant analysis, and FSHD analysis.",
@@ -70,6 +83,7 @@
     {
       "organization": "Exact Sciences",
       "role": "Computational Biology, Data Science Intern · Boston, Massachusetts",
+      "years": "May 2022 - August 2022",
       "bullets": [
         "• Conducted statistical analysis in Python, R, and Scala for accuracy improvements of short mutational variant biomarker signal in CancerSEEK, a liquid biopsy diagnostic test for the early detection of stage I and II cancers.",
         "• Analyzed the effects of unique molecular identifier (UMI) contamination on 40 genomic primer targets in the SafeR-SeqS duplex sequencing assay to improve sensitivity and specificity of a rare variant machine learning based logistic regression classifier.",
@@ -85,6 +99,7 @@
     {
       "organization": "Harvard Medical School",
       "role": "Biomedical Informatics Research Intern · Boston, Massachusetts",
+      "years": "May 2021 - May 2022",
       "bullets": [
         "• Worked as a Summer Institute in Biomedical Informatics Research Intern at Harvard Medical School's Department of Biomedical Informatics (DBMI) and Brigham and Women's hospital in the computational genomics lab of Dr. Shamil Sunyaev.",
         "• Analyzed the Broad Institute's Genome Aggregation Database (gnomAD) dataset to better quantify and understand the mutational constraint on missense and loss of function genomic variants using a fine-scale mutational map.",
@@ -100,6 +115,7 @@
     {
       "organization": "HackCU",
       "role": "Tech Team Director · Boulder, Colorado",
+      "years": "May 2020 - May 2023",
       "bullets": [
         "• Developed the new HackCU hub website (hackcu.org) utilizing full stack development tools, continuous integration (CI/CD), and end to end testing as part of the technology/software development team.",
         "• Worked with software development team to create the HackCU 007, HackCU 8, and HackCU 9 hackathon websites.",
@@ -114,6 +130,7 @@
     {
       "organization": "RNA Bioscience Initiative, University of Colorado Anschutz Medical School",
       "role": "Bioinformatics Research Intern · Denver, Colorado",
+      "years": "May 2020 - May 2021",
       "bullets": [
         "• Worked in the RNA Bioscience Initiative Bioinformatics Fellows Group under the mentorship of Dr. Jay Hesselberth, Dr. Kent Riemondy, and Dr. Rui Fu.",
         "• Authored (primary authorship) research paper published in Public Library Of Sciences Biology journal (May, 2021) regarding problem of single cell RNA-sequencing metadata submission in gene expression databases (NCBI GEO). Paper published in PLOS Biology Journal: https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001077",
@@ -130,6 +147,7 @@
     {
       "organization": "University of Colorado Boulder Department of Computer Science",
       "role": "Learning Assistant: Introduction to Programming with C++ · Boulder, Colorado",
+      "years": "January 2020 - May 2020",
       "bullets": [
         "• Guided students in learning course material for CSCI 1300: Introduction to Programming with C++ by holding weekly office hours, managing recitation periods, and crafting lesson plans.",
         "• Answered C++ programming questions on topics such as pointers, data structures, and recursion in recitation period as well as on Piazza online forum.",
@@ -143,6 +161,7 @@
     {
       "organization": "The National Center for Atmospheric Research (NCAR)",
       "role": "Research Intern · Boulder, Colorado",
+      "years": "June 2018 - January 2019",
       "bullets": [
         "•  Conducted research into the wind field size of US landfalling tropical cyclones on forecasted land falling location.",
         "•  Worked with Unix shell, Perl, and MATLAB for statistical analysis and visualization of data from HURDAT2 Extended Best Track Hurricane data set from the National Hurricane Center.",
