@@ -81,7 +81,7 @@
 // export default About;
 
 import React from "react";
-import Resume from "../../res/SidhantPuntambekarResume2024-2025.pdf";
+import Resume from "../../res/SidhantPuntambekarResume2025-2026.pdf";
 
 const About = () => {
   const containerStyle = {
@@ -137,7 +137,7 @@ const About = () => {
           While I mainly spend most of my time working and researching at the intersection of these two fields, I also enjoy learning about all sorts of topics in science, technology, engineering, math, history, and geography.
         </h4>
         <h4 style={textStyle}>
-          Currently, I am masters student in biomedical informatics at Harvard Medical School in Boston, Massachusetts. Although I call Boston home for the moment, I am originally from Boulder, Colorado and have previously lived in San Diego, California.
+          Currently, I am a masters student in biomedical informatics at Harvard Medical School in Boston, Massachusetts. I also work as a bioinformatician at Boston Children's Hospital. Although I call Boston home for the moment, I am originally from Boulder, Colorado and have previously lived in San Diego, California.
         </h4>
         <h4 style={textStyle}>
           I also have a wide variety of hobbies that I pursue in my spare time. I enjoy playing chess and studying games of the past to improve my own skills, playing musical instruments including the electric guitar and piano, reading about various military history topics, learning languages such as Spanish and German, running, travelling around the world, and following Denver area sports teams (such as the <span style={teamColorStyle("orange")}>Broncos</span>, <span style={teamColorStyle("yellow")}>Nuggets</span>, <span style={teamColorStyle("#FF2400")}>Avalanche</span>, and <span style={teamColorStyle("#C0C0C0")}>Rockies</span>). Recently, I started following Formula 1 racing.
