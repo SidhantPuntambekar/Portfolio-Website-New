@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.31f0ed03.chunk.css",
-    "main.js": "/static/js/main.97191f3c.chunk.js",
-    "main.js.map": "/static/js/main.97191f3c.chunk.js.map",
+    "main.js": "/static/js/main.51719239.chunk.js",
+    "main.js.map": "/static/js/main.51719239.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a29aacbe.js",
     "runtime-main.js.map": "/static/js/runtime-main.a29aacbe.js.map",
     "static/js/2.3c039db9.chunk.js": "/static/js/2.3c039db9.chunk.js",
@@ -12,7 +12,7 @@
     "index.html": "/index.html",
     "static/css/main.31f0ed03.chunk.css.map": "/static/css/main.31f0ed03.chunk.css.map",
     "static/js/2.3c039db9.chunk.js.LICENSE.txt": "/static/js/2.3c039db9.chunk.js.LICENSE.txt",
-    "static/media/SidhantPuntambekarResume2024-2025.021e1c05.pdf": "/static/media/SidhantPuntambekarResume2024-2025.021e1c05.pdf",
+    "static/media/SidhantPuntambekarResume2025-2026.da615e9a.pdf": "/static/media/SidhantPuntambekarResume2025-2026.da615e9a.pdf",
     "static/media/acorn_street.png": "/static/media/acorn_street.66ce9f1a.png",
     "static/media/anschutz.png": "/static/media/anschutz.e28c06ac.png",
     "static/media/styles.css": "/static/media/yosemite.91629375.jpg",
@@ -69,6 +69,6 @@
     "static/js/runtime-main.a29aacbe.js",
     "static/js/2.3c039db9.chunk.js",
     "static/css/main.31f0ed03.chunk.css",
-    "static/js/main.97191f3c.chunk.js"
+    "static/js/main.51719239.chunk.js"
   ]
 }
